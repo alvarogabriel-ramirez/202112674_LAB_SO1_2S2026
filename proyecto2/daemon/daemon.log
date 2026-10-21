@@ -1,0 +1,2320 @@
+=== Daemon de telemetría de contenedores - Proyecto 2 SO1 ===
+[init] Levantando Grafana + Valkey con docker compose...
+[init] Instalando cronjob...
+[init] Cargando módulo de kernel...
+2026/09/19 10:50:14 eBPF: tracepoint de sys_kill activo
+Daemon corriendo. Ctrl+C para detener limpiamente.
+[loop] RAM total=6991340KB libre=922360KB uso=6068980KB | procesos en contenedores=3
+[loop] RAM total=6991340KB libre=849768KB uso=6141572KB | procesos en contenedores=3
+[loop] RAM total=6991340KB libre=795572KB uso=6195768KB | procesos en contenedores=3
+[loop] RAM total=6991340KB libre=705700KB uso=6285640KB | procesos en contenedores=9
+[decision] Deteniendo contenedor excedente: carga_1789836722_3
+  error enviando SIGTERM a PID 1131785 : permission denied
+[eBPF] emisor=1130818 objetivo=1131785 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1131785
+[eBPF] emisor=1130818 objetivo=1131785 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836721_2
+  error enviando SIGTERM a PID 1131718 : permission denied
+[eBPF] emisor=1130818 objetivo=1131718 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1131718
+[eBPF] emisor=1130818 objetivo=1131718 señal=9
+[loop] RAM total=6991340KB libre=666648KB uso=6324692KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=577764KB uso=6413576KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=602380KB uso=6388960KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=531692KB uso=6459648KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789836722_4
+[eBPF] emisor=1130818 objetivo=1131848 señal=15
+  error enviando SIGTERM a PID 1131848 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1131848
+[eBPF] emisor=1130818 objetivo=1131848 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836846_5
+  error enviando SIGTERM a PID 1133737 : permission denied
+[eBPF] emisor=1130818 objetivo=1133737 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1133737
+[eBPF] emisor=1130818 objetivo=1133737 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836843_3
+  error enviando SIGTERM a PID 1133589 : permission denied
+[eBPF] emisor=1130818 objetivo=1133589 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1133589
+[eBPF] emisor=1130818 objetivo=1133589 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836845_4
+  error enviando SIGTERM a PID 1133663 : permission denied
+[eBPF] emisor=1130818 objetivo=1133663 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1133663
+[eBPF] emisor=1130818 objetivo=1133663 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836842_2
+  error enviando SIGTERM a PID 1133509 : permission denied
+[eBPF] emisor=1130818 objetivo=1133509 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1133509
+[eBPF] emisor=1130818 objetivo=1133509 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789836723
+  error enviando SIGTERM a PID 1131978 : permission denied
+[eBPF] emisor=1130818 objetivo=1131978 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1131978
+[eBPF] emisor=1130818 objetivo=1131978 señal=9
+[loop] RAM total=6991340KB libre=506556KB uso=6484784KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=532424KB uso=6458916KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=499684KB uso=6491656KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=438568KB uso=6552772KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789836962_2
+  error enviando SIGTERM a PID 1135916 : permission denied
+[eBPF] emisor=1130818 objetivo=1135916 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1135916
+[eBPF] emisor=1130818 objetivo=1135916 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836722_5
+[eBPF] emisor=1130818 objetivo=1131913 señal=15
+  error enviando SIGTERM a PID 1131913 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1131913
+[eBPF] emisor=1130818 objetivo=1131913 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836841_1
+  error enviando SIGTERM a PID 1133424 : permission denied
+[eBPF] emisor=1130818 objetivo=1133424 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1133424
+[eBPF] emisor=1130818 objetivo=1133424 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836721_1
+  error enviando SIGTERM a PID 1131638 : permission denied
+[eBPF] emisor=1130818 objetivo=1131638 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1131638
+[eBPF] emisor=1130818 objetivo=1131638 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789836848
+  error enviando SIGTERM a PID 1133812 : permission denied
+[eBPF] emisor=1130818 objetivo=1133812 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1133812
+[eBPF] emisor=1130818 objetivo=1133812 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789835407_4
+  error enviando SIGTERM a PID 1116316 : permission denied
+[eBPF] emisor=1130818 objetivo=1116316 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1116316
+[eBPF] emisor=1130818 objetivo=1116316 señal=9
+[loop] RAM total=6991340KB libre=442108KB uso=6549232KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=534736KB uso=6456604KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=407156KB uso=6584184KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=414092KB uso=6577248KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789837082_2
+  error enviando SIGTERM a PID 1137967 : permission denied
+[eBPF] emisor=1130818 objetivo=1137967 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1137967
+[eBPF] emisor=1130818 objetivo=1137967 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836963_5
+  error enviando SIGTERM a PID 1136107 : permission denied
+[eBPF] emisor=1130818 objetivo=1136107 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1136107
+[eBPF] emisor=1130818 objetivo=1136107 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837082_3
+  error enviando SIGTERM a PID 1138032 : permission denied
+[eBPF] emisor=1130818 objetivo=1138032 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1138032
+[eBPF] emisor=1130818 objetivo=1138032 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789836963
+  error enviando SIGTERM a PID 1136169 : permission denied
+[eBPF] emisor=1130818 objetivo=1136169 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1136169
+[eBPF] emisor=1130818 objetivo=1136169 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789837086
+  error enviando SIGTERM a PID 1138238 : permission denied
+[eBPF] emisor=1130818 objetivo=1138238 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1138238
+[eBPF] emisor=1130818 objetivo=1138238 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836962_3
+[eBPF] emisor=1130818 objetivo=1135978 señal=15
+  error enviando SIGTERM a PID 1135978 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1135978
+[eBPF] emisor=1130818 objetivo=1135978 señal=9
+[loop] RAM total=6991340KB libre=528556KB uso=6462784KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=533436KB uso=6457904KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=416256KB uso=6575084KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=665392KB uso=6325948KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789837208_5
+  error enviando SIGTERM a PID 1140291 : permission denied
+[eBPF] emisor=1130818 objetivo=1140291 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1140291
+[eBPF] emisor=1130818 objetivo=1140291 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789836961_1
+  error enviando SIGTERM a PID 1135835 : permission denied
+[eBPF] emisor=1130818 objetivo=1135835 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1135835
+[eBPF] emisor=1130818 objetivo=1135835 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837081_1
+  error enviando SIGTERM a PID 1137881 : permission denied
+[eBPF] emisor=1130818 objetivo=1137881 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1137881
+[eBPF] emisor=1130818 objetivo=1137881 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789837209
+  error enviando SIGTERM a PID 1140358 : permission denied
+[eBPF] emisor=1130818 objetivo=1140358 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1140358
+[eBPF] emisor=1130818 objetivo=1140358 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837085_5
+  error enviando SIGTERM a PID 1138167 : permission denied
+[eBPF] emisor=1130818 objetivo=1138167 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1138167
+[eBPF] emisor=1130818 objetivo=1138167 señal=9
+[loop] RAM total=6991340KB libre=766756KB uso=6224584KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=821356KB uso=6169984KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=798644KB uso=6192696KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1262456KB uso=5728884KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789837322_5
+  error enviando SIGTERM a PID 1142263 : permission denied
+[eBPF] emisor=1130818 objetivo=1142263 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1142263
+[eBPF] emisor=1130818 objetivo=1142263 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837322_4
+[eBPF] emisor=1130818 objetivo=1142202 señal=15
+  error enviando SIGTERM a PID 1142202 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1142202
+[eBPF] emisor=1130818 objetivo=1142202 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837322_3
+  error enviando SIGTERM a PID 1142135 : permission denied
+[eBPF] emisor=1130818 objetivo=1142135 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1142135
+[eBPF] emisor=1130818 objetivo=1142135 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837321_1
+  error enviando SIGTERM a PID 1141990 : permission denied
+[eBPF] emisor=1130818 objetivo=1141990 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1141990
+[eBPF] emisor=1130818 objetivo=1141990 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837203_2
+  error enviando SIGTERM a PID 1140085 : permission denied
+[eBPF] emisor=1130818 objetivo=1140085 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1140085
+[eBPF] emisor=1130818 objetivo=1140085 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789837323
+[eBPF] emisor=1130818 objetivo=1142331 señal=15
+  error enviando SIGTERM a PID 1142331 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1142331
+[eBPF] emisor=1130818 objetivo=1142331 señal=9
+[loop] RAM total=6991340KB libre=1042364KB uso=5948976KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=974900KB uso=6016440KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=996380KB uso=5994960KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1134320KB uso=5857020KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789837446_4
+  error enviando SIGTERM a PID 1144624 : permission denied
+[eBPF] emisor=1130818 objetivo=1144624 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1144624
+[eBPF] emisor=1130818 objetivo=1144624 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837441_1
+  error enviando SIGTERM a PID 1144391 : permission denied
+[eBPF] emisor=1130818 objetivo=1144391 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1144391
+[eBPF] emisor=1130818 objetivo=1144391 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837201_1
+  error enviando SIGTERM a PID 1139971 : permission denied
+[eBPF] emisor=1130818 objetivo=1139971 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1139971
+[eBPF] emisor=1130818 objetivo=1139971 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837448_5
+  error enviando SIGTERM a PID 1144696 : permission denied
+[eBPF] emisor=1130818 objetivo=1144696 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1144696
+[eBPF] emisor=1130818 objetivo=1144696 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837443_2
+  error enviando SIGTERM a PID 1144474 : permission denied
+[eBPF] emisor=1130818 objetivo=1144474 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1144474
+[eBPF] emisor=1130818 objetivo=1144474 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837444_3
+  error enviando SIGTERM a PID 1144549 : permission denied
+[eBPF] emisor=1130818 objetivo=1144549 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1144549
+[eBPF] emisor=1130818 objetivo=1144549 señal=9
+[loop] RAM total=6991340KB libre=1599472KB uso=5391868KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1263084KB uso=5728256KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=636640KB uso=6354700KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=537248KB uso=6454092KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789837321_2
+  error enviando SIGTERM a PID 1142072 : permission denied
+[eBPF] emisor=1130818 objetivo=1142072 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1142072
+[eBPF] emisor=1130818 objetivo=1142072 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837205_3
+  error enviando SIGTERM a PID 1140148 : permission denied
+[eBPF] emisor=1130818 objetivo=1140148 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1140148
+[eBPF] emisor=1130818 objetivo=1140148 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837567_4
+  error enviando SIGTERM a PID 1147055 : permission denied
+[eBPF] emisor=1130818 objetivo=1147055 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1147055
+[eBPF] emisor=1130818 objetivo=1147055 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837561_1
+  error enviando SIGTERM a PID 1146796 : permission denied
+[eBPF] emisor=1130818 objetivo=1146796 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1146796
+[eBPF] emisor=1130818 objetivo=1146796 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837207_4
+  error enviando SIGTERM a PID 1140216 : permission denied
+[eBPF] emisor=1130818 objetivo=1140216 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1140216
+[eBPF] emisor=1130818 objetivo=1140216 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789837572
+  error enviando SIGTERM a PID 1147222 : permission denied
+[eBPF] emisor=1130818 objetivo=1147222 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1147222
+[eBPF] emisor=1130818 objetivo=1147222 señal=9
+[loop] RAM total=6991340KB libre=645892KB uso=6345448KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=534100KB uso=6457240KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=540644KB uso=6450696KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=856364KB uso=6134976KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789837084_4
+  error enviando SIGTERM a PID 1138102 : permission denied
+[eBPF] emisor=1130818 objetivo=1138102 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1138102
+[eBPF] emisor=1130818 objetivo=1138102 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837682_4
+  error enviando SIGTERM a PID 1149288 : permission denied
+[eBPF] emisor=1130818 objetivo=1149288 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1149288
+[eBPF] emisor=1130818 objetivo=1149288 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837564_2
+  error enviando SIGTERM a PID 1146882 : permission denied
+[eBPF] emisor=1130818 objetivo=1146882 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1146882
+[eBPF] emisor=1130818 objetivo=1146882 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837681_1
+  error enviando SIGTERM a PID 1149074 : permission denied
+[eBPF] emisor=1130818 objetivo=1149074 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1149074
+[eBPF] emisor=1130818 objetivo=1149074 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789837449
+  error enviando SIGTERM a PID 1144776 : permission denied
+[eBPF] emisor=1130818 objetivo=1144776 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1144776
+[eBPF] emisor=1130818 objetivo=1144776 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789837683
+  error enviando SIGTERM a PID 1149425 : permission denied
+[eBPF] emisor=1130818 objetivo=1149425 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1149425
+[eBPF] emisor=1130818 objetivo=1149425 señal=9
+[loop] RAM total=6991340KB libre=918832KB uso=6072508KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=917560KB uso=6073780KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=882796KB uso=6108544KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1290776KB uso=5700564KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789837802_4
+  error enviando SIGTERM a PID 1151319 : permission denied
+[eBPF] emisor=1130818 objetivo=1151319 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1151319
+[eBPF] emisor=1130818 objetivo=1151319 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837682_2
+  error enviando SIGTERM a PID 1149159 : permission denied
+[eBPF] emisor=1130818 objetivo=1149159 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1149159
+[eBPF] emisor=1130818 objetivo=1149159 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837803_5
+  error enviando SIGTERM a PID 1151383 : permission denied
+[eBPF] emisor=1130818 objetivo=1151383 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1151383
+[eBPF] emisor=1130818 objetivo=1151383 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837802_3
+  error enviando SIGTERM a PID 1151251 : permission denied
+[eBPF] emisor=1130818 objetivo=1151251 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1151251
+[eBPF] emisor=1130818 objetivo=1151251 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837683_5
+  error enviando SIGTERM a PID 1149353 : permission denied
+[eBPF] emisor=1130818 objetivo=1149353 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1149353
+[eBPF] emisor=1130818 objetivo=1149353 señal=9
+[loop] RAM total=6991340KB libre=1370724KB uso=5620616KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1346324KB uso=5645016KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1317604KB uso=5673736KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1551032KB uso=5440308KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789837801_1
+  error enviando SIGTERM a PID 1151105 : permission denied
+[eBPF] emisor=1130818 objetivo=1151105 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1151105
+[eBPF] emisor=1130818 objetivo=1151105 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837565_3
+  error enviando SIGTERM a PID 1146963 : permission denied
+[eBPF] emisor=1130818 objetivo=1146963 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1146963
+[eBPF] emisor=1130818 objetivo=1146963 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837925_4
+  error enviando SIGTERM a PID 1153587 : permission denied
+[eBPF] emisor=1130818 objetivo=1153587 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1153587
+[eBPF] emisor=1130818 objetivo=1153587 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837921_1
+  error enviando SIGTERM a PID 1153358 : permission denied
+[eBPF] emisor=1130818 objetivo=1153358 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1153358
+[eBPF] emisor=1130818 objetivo=1153358 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789837928
+  error enviando SIGTERM a PID 1153730 : permission denied
+[eBPF] emisor=1130818 objetivo=1153730 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1153730
+[eBPF] emisor=1130818 objetivo=1153730 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837927_5
+  error enviando SIGTERM a PID 1153658 : permission denied
+[eBPF] emisor=1130818 objetivo=1153658 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1153658
+[eBPF] emisor=1130818 objetivo=1153658 señal=9
+[loop] RAM total=6991340KB libre=1600436KB uso=5390904KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1642472KB uso=5348868KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1565296KB uso=5426044KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1516028KB uso=5475312KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789837923_3
+  error enviando SIGTERM a PID 1153512 : permission denied
+[eBPF] emisor=1130818 objetivo=1153512 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1153512
+[eBPF] emisor=1130818 objetivo=1153512 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838041_2
+  error enviando SIGTERM a PID 1155681 : permission denied
+[eBPF] emisor=1130818 objetivo=1155681 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1155681
+[eBPF] emisor=1130818 objetivo=1155681 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837922_2
+  error enviando SIGTERM a PID 1153439 : permission denied
+[eBPF] emisor=1130818 objetivo=1153439 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1153439
+[eBPF] emisor=1130818 objetivo=1153439 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837802_2
+  error enviando SIGTERM a PID 1151187 : permission denied
+[eBPF] emisor=1130818 objetivo=1151187 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1151187
+[eBPF] emisor=1130818 objetivo=1151187 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789837803
+  error enviando SIGTERM a PID 1151452 : permission denied
+[eBPF] emisor=1130818 objetivo=1151452 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1151452
+[eBPF] emisor=1130818 objetivo=1151452 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789838042
+  error enviando SIGTERM a PID 1155940 : permission denied
+[eBPF] emisor=1130818 objetivo=1155940 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1155940
+[eBPF] emisor=1130818 objetivo=1155940 señal=9
+[loop] RAM total=6991340KB libre=1593996KB uso=5397344KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1591764KB uso=5399576KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1565036KB uso=5426304KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1525112KB uso=5466228KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789838162_4
+  error enviando SIGTERM a PID 1157855 : permission denied
+[eBPF] emisor=1130818 objetivo=1157855 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1157855
+[eBPF] emisor=1130818 objetivo=1157855 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838161_3
+  error enviando SIGTERM a PID 1157790 : permission denied
+[eBPF] emisor=1130818 objetivo=1157790 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1157790
+[eBPF] emisor=1130818 objetivo=1157790 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838161_1
+  error enviando SIGTERM a PID 1157642 : permission denied
+[eBPF] emisor=1130818 objetivo=1157642 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1157642
+[eBPF] emisor=1130818 objetivo=1157642 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838042_4
+  error enviando SIGTERM a PID 1155814 : permission denied
+[eBPF] emisor=1130818 objetivo=1155814 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1155814
+[eBPF] emisor=1130818 objetivo=1155814 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789838162
+  error enviando SIGTERM a PID 1157979 : permission denied
+[eBPF] emisor=1130818 objetivo=1157979 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1157979
+[eBPF] emisor=1130818 objetivo=1157979 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838161_2
+  error enviando SIGTERM a PID 1157720 : permission denied
+[eBPF] emisor=1130818 objetivo=1157720 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1157720
+[eBPF] emisor=1130818 objetivo=1157720 señal=9
+[loop] RAM total=6991340KB libre=1576748KB uso=5414592KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1528916KB uso=5462424KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1355492KB uso=5635848KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1164796KB uso=5826544KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789838281_1
+[eBPF] emisor=1130818 objetivo=1159620 señal=15
+  error enviando SIGTERM a PID 1159620 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1159620
+[eBPF] emisor=1130818 objetivo=1159620 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838162_5
+  error enviando SIGTERM a PID 1157917 : permission denied
+[eBPF] emisor=1130818 objetivo=1157917 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1157917
+[eBPF] emisor=1130818 objetivo=1157917 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838042_3
+  error enviando SIGTERM a PID 1155746 : permission denied
+[eBPF] emisor=1130818 objetivo=1155746 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1155746
+[eBPF] emisor=1130818 objetivo=1155746 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838286_5
+  error enviando SIGTERM a PID 1159927 : permission denied
+[eBPF] emisor=1130818 objetivo=1159927 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1159927
+[eBPF] emisor=1130818 objetivo=1159927 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789837682_3
+  error enviando SIGTERM a PID 1149221 : permission denied
+[eBPF] emisor=1130818 objetivo=1149221 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1149221
+[eBPF] emisor=1130818 objetivo=1149221 señal=9
+[loop] RAM total=6991340KB libre=1146640KB uso=5844700KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1151524KB uso=5839816KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1159948KB uso=5831392KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1149572KB uso=5841768KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789838281_2
+  error enviando SIGTERM a PID 1159700 : permission denied
+[eBPF] emisor=1130818 objetivo=1159700 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1159700
+[eBPF] emisor=1130818 objetivo=1159700 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838402_5
+  error enviando SIGTERM a PID 1161969 : permission denied
+[eBPF] emisor=1130818 objetivo=1161969 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1161969
+[eBPF] emisor=1130818 objetivo=1161969 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838283_3
+  error enviando SIGTERM a PID 1159791 : permission denied
+[eBPF] emisor=1130818 objetivo=1159791 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1159791
+[eBPF] emisor=1130818 objetivo=1159791 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838041_1
+  error enviando SIGTERM a PID 1155596 : permission denied
+[eBPF] emisor=1130818 objetivo=1155596 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1155596
+[eBPF] emisor=1130818 objetivo=1155596 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789838402
+  error enviando SIGTERM a PID 1162034 : permission denied
+[eBPF] emisor=1130818 objetivo=1162034 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1162034
+[eBPF] emisor=1130818 objetivo=1162034 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789838287
+  error enviando SIGTERM a PID 1159997 : permission denied
+[eBPF] emisor=1130818 objetivo=1159997 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1159997
+[eBPF] emisor=1130818 objetivo=1159997 señal=9
+[loop] RAM total=6991340KB libre=1377108KB uso=5614232KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1380568KB uso=5610772KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1362904KB uso=5628436KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1310060KB uso=5681280KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789838522_2
+  error enviando SIGTERM a PID 1163786 : permission denied
+[eBPF] emisor=1130818 objetivo=1163786 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1163786
+[eBPF] emisor=1130818 objetivo=1163786 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838401_1
+  error enviando SIGTERM a PID 1161692 : permission denied
+[eBPF] emisor=1130818 objetivo=1161692 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1161692
+[eBPF] emisor=1130818 objetivo=1161692 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838523_5
+  error enviando SIGTERM a PID 1163981 : permission denied
+[eBPF] emisor=1130818 objetivo=1163981 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1163981
+[eBPF] emisor=1130818 objetivo=1163981 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789838523
+  error enviando SIGTERM a PID 1164048 : permission denied
+[eBPF] emisor=1130818 objetivo=1164048 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1164048
+[eBPF] emisor=1130818 objetivo=1164048 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838521_1
+  error enviando SIGTERM a PID 1163701 : permission denied
+[eBPF] emisor=1130818 objetivo=1163701 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1163701
+[eBPF] emisor=1130818 objetivo=1163701 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838402_4
+  error enviando SIGTERM a PID 1161900 : permission denied
+[eBPF] emisor=1130818 objetivo=1161900 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1161900
+[eBPF] emisor=1130818 objetivo=1161900 señal=9
+[loop] RAM total=6991340KB libre=1530432KB uso=5460908KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1535700KB uso=5455640KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1499568KB uso=5491772KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1487912KB uso=5503428KB | procesos en contenedores=11
+[decision] Deteniendo contenedor excedente: carga_1789838645_3
+  error enviando SIGTERM a PID 1165860 : permission denied
+[eBPF] emisor=1130818 objetivo=1165860 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1165860
+[eBPF] emisor=1130818 objetivo=1165860 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838644_2
+  error enviando SIGTERM a PID 1165792 : permission denied
+[eBPF] emisor=1130818 objetivo=1165792 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1165792
+[eBPF] emisor=1130818 objetivo=1165792 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838284_4
+  error enviando SIGTERM a PID 1159856 : permission denied
+[eBPF] emisor=1130818 objetivo=1159856 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1159856
+[eBPF] emisor=1130818 objetivo=1159856 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838648_5
+  error enviando SIGTERM a PID 1165991 : permission denied
+[eBPF] emisor=1130818 objetivo=1165991 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1165991
+[eBPF] emisor=1130818 objetivo=1165991 señal=9
+[loop] RAM total=6991340KB libre=1475712KB uso=5515628KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1528608KB uso=5462732KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1439868KB uso=5551472KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1409596KB uso=5581744KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789838761_2
+  error enviando SIGTERM a PID 1167733 : permission denied
+[eBPF] emisor=1130818 objetivo=1167733 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1167733
+[eBPF] emisor=1130818 objetivo=1167733 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838647_4
+  error enviando SIGTERM a PID 1165925 : permission denied
+[eBPF] emisor=1130818 objetivo=1165925 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1165925
+[eBPF] emisor=1130818 objetivo=1165925 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838641_1
+  error enviando SIGTERM a PID 1165712 : permission denied
+[eBPF] emisor=1130818 objetivo=1165712 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1165712
+[eBPF] emisor=1130818 objetivo=1165712 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789838649
+  error enviando SIGTERM a PID 1166062 : permission denied
+[eBPF] emisor=1130818 objetivo=1166062 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1166062
+[eBPF] emisor=1130818 objetivo=1166062 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838762_4
+  error enviando SIGTERM a PID 1167862 : permission denied
+[eBPF] emisor=1130818 objetivo=1167862 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1167862
+[eBPF] emisor=1130818 objetivo=1167862 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838522_4
+  error enviando SIGTERM a PID 1163915 : permission denied
+[eBPF] emisor=1130818 objetivo=1163915 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1163915
+[eBPF] emisor=1130818 objetivo=1163915 señal=9
+[loop] RAM total=6991340KB libre=1444564KB uso=5546776KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1510736KB uso=5480604KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1406984KB uso=5584356KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1406696KB uso=5584644KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789838881_1
+  error enviando SIGTERM a PID 1169829 : permission denied
+[eBPF] emisor=1130818 objetivo=1169829 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1169829
+[eBPF] emisor=1130818 objetivo=1169829 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838882_3
+[eBPF] emisor=1130818 objetivo=1169978 señal=15
+  error enviando SIGTERM a PID 1169978 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1169978
+[eBPF] emisor=1130818 objetivo=1169978 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838762_5
+  error enviando SIGTERM a PID 1167932 : permission denied
+[eBPF] emisor=1130818 objetivo=1167932 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1167932
+[eBPF] emisor=1130818 objetivo=1167932 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838762_3
+  error enviando SIGTERM a PID 1167796 : permission denied
+[eBPF] emisor=1130818 objetivo=1167796 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1167796
+[eBPF] emisor=1130818 objetivo=1167796 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838882_4
+  error enviando SIGTERM a PID 1170042 : permission denied
+[eBPF] emisor=1130818 objetivo=1170042 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1170042
+[eBPF] emisor=1130818 objetivo=1170042 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789838761_1
+  error enviando SIGTERM a PID 1167649 : permission denied
+[eBPF] emisor=1130818 objetivo=1167649 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1167649
+[eBPF] emisor=1130818 objetivo=1167649 señal=9
+[loop] RAM total=6991340KB libre=1429880KB uso=5561460KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1462540KB uso=5528800KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1456832KB uso=5534508KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1392288KB uso=5599052KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789838882_5
+  error enviando SIGTERM a PID 1170105 : permission denied
+[eBPF] emisor=1130818 objetivo=1170105 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1170105
+[eBPF] emisor=1130818 objetivo=1170105 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839006_5
+  error enviando SIGTERM a PID 1172557 : permission denied
+[eBPF] emisor=1130818 objetivo=1172557 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1172557
+[eBPF] emisor=1130818 objetivo=1172557 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789838763
+  error enviando SIGTERM a PID 1167999 : permission denied
+[eBPF] emisor=1130818 objetivo=1167999 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1167999
+[eBPF] emisor=1130818 objetivo=1167999 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839005_4
+  error enviando SIGTERM a PID 1172484 : permission denied
+[eBPF] emisor=1130818 objetivo=1172484 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1172484
+[eBPF] emisor=1130818 objetivo=1172484 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789839007
+  error enviando SIGTERM a PID 1172625 : permission denied
+[eBPF] emisor=1130818 objetivo=1172625 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1172625
+[eBPF] emisor=1130818 objetivo=1172625 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839004_3
+  error enviando SIGTERM a PID 1172411 : permission denied
+[eBPF] emisor=1130818 objetivo=1172411 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1172411
+[eBPF] emisor=1130818 objetivo=1172411 señal=9
+[loop] RAM total=6991340KB libre=1430748KB uso=5560592KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1126376KB uso=5864964KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1060780KB uso=5930560KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=943776KB uso=6047564KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789839122_4
+  error enviando SIGTERM a PID 1174663 : permission denied
+[eBPF] emisor=1130818 objetivo=1174663 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1174663
+[eBPF] emisor=1130818 objetivo=1174663 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839122_3
+  error enviando SIGTERM a PID 1174597 : permission denied
+[eBPF] emisor=1130818 objetivo=1174597 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1174597
+[eBPF] emisor=1130818 objetivo=1174597 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839121_1
+  error enviando SIGTERM a PID 1174447 : permission denied
+[eBPF] emisor=1130818 objetivo=1174447 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1174447
+[eBPF] emisor=1130818 objetivo=1174447 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839002_2
+[eBPF] emisor=1130818 objetivo=1172345 señal=15
+  error enviando SIGTERM a PID 1172345 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1172345
+[eBPF] emisor=1130818 objetivo=1172345 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839122_2
+  error enviando SIGTERM a PID 1174529 : permission denied
+[eBPF] emisor=1130818 objetivo=1174529 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1174529
+[eBPF] emisor=1130818 objetivo=1174529 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789838883
+  error enviando SIGTERM a PID 1170169 : permission denied
+[eBPF] emisor=1130818 objetivo=1170169 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1170169
+[eBPF] emisor=1130818 objetivo=1170169 señal=9
+[loop] RAM total=6991340KB libre=926916KB uso=6064424KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=861136KB uso=6130204KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=765600KB uso=6225740KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=644004KB uso=6347336KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789838522_3
+  error enviando SIGTERM a PID 1163848 : permission denied
+[eBPF] emisor=1130818 objetivo=1163848 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1163848
+[eBPF] emisor=1130818 objetivo=1163848 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789839243
+  error enviando SIGTERM a PID 1177019 : permission denied
+[eBPF] emisor=1130818 objetivo=1177019 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1177019
+[eBPF] emisor=1130818 objetivo=1177019 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839242_4
+[eBPF] emisor=1130818 objetivo=1176882 señal=15
+  error enviando SIGTERM a PID 1176882 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1176882
+[eBPF] emisor=1130818 objetivo=1176882 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789839123
+  error enviando SIGTERM a PID 1174793 : permission denied
+[eBPF] emisor=1130818 objetivo=1174793 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1174793
+[eBPF] emisor=1130818 objetivo=1174793 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839243_5
+  error enviando SIGTERM a PID 1176951 : permission denied
+[eBPF] emisor=1130818 objetivo=1176951 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1176951
+[eBPF] emisor=1130818 objetivo=1176951 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839001_1
+  error enviando SIGTERM a PID 1172245 : permission denied
+[eBPF] emisor=1130818 objetivo=1172245 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1172245
+[eBPF] emisor=1130818 objetivo=1172245 señal=9
+[loop] RAM total=6991340KB libre=654820KB uso=6336520KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=720020KB uso=6271320KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=666252KB uso=6325088KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1104332KB uso=5887008KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1002688KB uso=5988652KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789839375_4
+  error enviando SIGTERM a PID 1179094 : permission denied
+[eBPF] emisor=1130818 objetivo=1179094 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1179094
+[eBPF] emisor=1130818 objetivo=1179094 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839242_2
+  error enviando SIGTERM a PID 1176749 : permission denied
+[eBPF] emisor=1130818 objetivo=1176749 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1176749
+[eBPF] emisor=1130818 objetivo=1176749 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839376_5
+  error enviando SIGTERM a PID 1179160 : permission denied
+[eBPF] emisor=1130818 objetivo=1179160 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1179160
+[eBPF] emisor=1130818 objetivo=1179160 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839375_3
+  error enviando SIGTERM a PID 1179023 : permission denied
+[eBPF] emisor=1130818 objetivo=1179023 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1179023
+[eBPF] emisor=1130818 objetivo=1179023 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789839376
+  error enviando SIGTERM a PID 1179238 : permission denied
+[eBPF] emisor=1130818 objetivo=1179238 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1179238
+[eBPF] emisor=1130818 objetivo=1179238 señal=9
+[loop] RAM total=6991340KB libre=1092140KB uso=5899200KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1315900KB uso=5675440KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=745952KB uso=6245388KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789839361_1
+  error enviando SIGTERM a PID 1178705 : permission denied
+[eBPF] emisor=1130818 objetivo=1178705 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1178705
+[eBPF] emisor=1130818 objetivo=1178705 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839483_5
+  error enviando SIGTERM a PID 1181091 : permission denied
+[eBPF] emisor=1130818 objetivo=1181091 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1181091
+[eBPF] emisor=1130818 objetivo=1181091 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839241_1
+  error enviando SIGTERM a PID 1176664 : permission denied
+[eBPF] emisor=1130818 objetivo=1176664 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1176664
+[eBPF] emisor=1130818 objetivo=1176664 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839482_3
+  error enviando SIGTERM a PID 1180952 : permission denied
+[eBPF] emisor=1130818 objetivo=1180952 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1180952
+[eBPF] emisor=1130818 objetivo=1180952 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839482_2
+  error enviando SIGTERM a PID 1180884 : permission denied
+[eBPF] emisor=1130818 objetivo=1180884 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1180884
+[eBPF] emisor=1130818 objetivo=1180884 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789839483
+  error enviando SIGTERM a PID 1181153 : permission denied
+[eBPF] emisor=1130818 objetivo=1181153 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1181153
+[eBPF] emisor=1130818 objetivo=1181153 señal=9
+[loop] RAM total=6991340KB libre=1002428KB uso=5988912KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1000004KB uso=5991336KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=791324KB uso=6200016KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=547192KB uso=6444148KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789838881_2
+  error enviando SIGTERM a PID 1169913 : permission denied
+[eBPF] emisor=1130818 objetivo=1169913 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1169913
+[eBPF] emisor=1130818 objetivo=1169913 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839481_1
+  error enviando SIGTERM a PID 1180803 : permission denied
+[eBPF] emisor=1130818 objetivo=1180803 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1180803
+[eBPF] emisor=1130818 objetivo=1180803 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839373_2
+  PID inválido para carga_1789839373_2
+[decision] Deteniendo contenedor excedente: carga_1789839482_4
+  error enviando SIGTERM a PID 1181019 : permission denied
+[eBPF] emisor=1130818 objetivo=1181019 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1181019
+[eBPF] emisor=1130818 objetivo=1181019 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839242_3
+  error enviando SIGTERM a PID 1176812 : permission denied
+[eBPF] emisor=1130818 objetivo=1176812 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1176812
+[eBPF] emisor=1130818 objetivo=1176812 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789839609
+  error enviando SIGTERM a PID 1183524 : permission denied
+[eBPF] emisor=1130818 objetivo=1183524 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1183524
+[eBPF] emisor=1130818 objetivo=1183524 señal=9
+[loop] RAM total=6991340KB libre=714996KB uso=6276344KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=875064KB uso=6116276KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=692688KB uso=6298652KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=266064KB uso=6725276KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789839722_4
+  error enviando SIGTERM a PID 1185933 : permission denied
+[eBPF] emisor=1130818 objetivo=1185933 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1185933
+[eBPF] emisor=1130818 objetivo=1185933 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839721_2
+  error enviando SIGTERM a PID 1185787 : permission denied
+[eBPF] emisor=1130818 objetivo=1185787 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1185787
+[eBPF] emisor=1130818 objetivo=1185787 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839601_1
+  error enviando SIGTERM a PID 1183127 : permission denied
+[eBPF] emisor=1130818 objetivo=1183127 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1183127
+[eBPF] emisor=1130818 objetivo=1183127 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839721_1
+  error enviando SIGTERM a PID 1185702 : permission denied
+[eBPF] emisor=1130818 objetivo=1185702 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1185702
+[eBPF] emisor=1130818 objetivo=1185702 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789839723
+  error enviando SIGTERM a PID 1186079 : permission denied
+[eBPF] emisor=1130818 objetivo=1186079 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1186079
+[eBPF] emisor=1130818 objetivo=1186079 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839722_3
+  error enviando SIGTERM a PID 1185857 : permission denied
+[eBPF] emisor=1130818 objetivo=1185857 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1185857
+[eBPF] emisor=1130818 objetivo=1185857 señal=9
+[loop] RAM total=6991340KB libre=1171472KB uso=5819868KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1026752KB uso=5964588KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=823184KB uso=6168156KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=980292KB uso=6011048KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789839842_5
+  error enviando SIGTERM a PID 1188815 : permission denied
+[eBPF] emisor=1130818 objetivo=1188815 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1188815
+[eBPF] emisor=1130818 objetivo=1188815 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839608_5
+  error enviando SIGTERM a PID 1183458 : permission denied
+[eBPF] emisor=1130818 objetivo=1183458 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1183458
+[eBPF] emisor=1130818 objetivo=1183458 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839605_3
+  error enviando SIGTERM a PID 1183310 : permission denied
+[eBPF] emisor=1130818 objetivo=1183310 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1183310
+[eBPF] emisor=1130818 objetivo=1183310 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839842_4
+  error enviando SIGTERM a PID 1188748 : permission denied
+[eBPF] emisor=1130818 objetivo=1188748 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1188748
+[eBPF] emisor=1130818 objetivo=1188748 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789839842
+  error enviando SIGTERM a PID 1188881 : permission denied
+[eBPF] emisor=1130818 objetivo=1188881 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1188881
+[eBPF] emisor=1130818 objetivo=1188881 señal=9
+[loop] RAM total=6991340KB libre=1063900KB uso=5927440KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1054368KB uso=5936972KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1042376KB uso=5948964KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=975148KB uso=6016192KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789839842_3
+  error enviando SIGTERM a PID 1188684 : permission denied
+[eBPF] emisor=1130818 objetivo=1188684 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1188684
+[eBPF] emisor=1130818 objetivo=1188684 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839723_5
+  error enviando SIGTERM a PID 1186007 : permission denied
+[eBPF] emisor=1130818 objetivo=1186007 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1186007
+[eBPF] emisor=1130818 objetivo=1186007 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839962_5
+  error enviando SIGTERM a PID 1190908 : permission denied
+[eBPF] emisor=1130818 objetivo=1190908 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1190908
+[eBPF] emisor=1130818 objetivo=1190908 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839841_2
+  error enviando SIGTERM a PID 1188615 : permission denied
+[eBPF] emisor=1130818 objetivo=1188615 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1188615
+[eBPF] emisor=1130818 objetivo=1188615 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839607_4
+  error enviando SIGTERM a PID 1183386 : permission denied
+[eBPF] emisor=1130818 objetivo=1183386 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1183386
+[eBPF] emisor=1130818 objetivo=1183386 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839962_3
+[eBPF] emisor=1130818 objetivo=1190776 señal=15
+  error enviando SIGTERM a PID 1190776 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1190776
+[eBPF] emisor=1130818 objetivo=1190776 señal=9
+[loop] RAM total=6991340KB libre=994256KB uso=5997084KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=932408KB uso=6058932KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=936468KB uso=6054872KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=925184KB uso=6066156KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789839961_2
+  error enviando SIGTERM a PID 1190706 : permission denied
+[eBPF] emisor=1130818 objetivo=1190706 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1190706
+[eBPF] emisor=1130818 objetivo=1190706 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840085_5
+  error enviando SIGTERM a PID 1193083 : permission denied
+[eBPF] emisor=1130818 objetivo=1193083 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1193083
+[eBPF] emisor=1130818 objetivo=1193083 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840084_4
+  error enviando SIGTERM a PID 1193019 : permission denied
+[eBPF] emisor=1130818 objetivo=1193019 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1193019
+[eBPF] emisor=1130818 objetivo=1193019 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840083_3
+  error enviando SIGTERM a PID 1192944 : permission denied
+[eBPF] emisor=1130818 objetivo=1192944 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1192944
+[eBPF] emisor=1130818 objetivo=1192944 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839841_1
+  error enviando SIGTERM a PID 1188532 : permission denied
+[eBPF] emisor=1130818 objetivo=1188532 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1188532
+[eBPF] emisor=1130818 objetivo=1188532 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789839961_1
+  error enviando SIGTERM a PID 1190621 : permission denied
+[eBPF] emisor=1130818 objetivo=1190621 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1190621
+[eBPF] emisor=1130818 objetivo=1190621 señal=9
+[loop] RAM total=6991340KB libre=920844KB uso=6070496KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=854624KB uso=6136716KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=886492KB uso=6104848KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=902252KB uso=6089088KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: intruso_1789839963
+  error enviando SIGTERM a PID 1190972 : permission denied
+[eBPF] emisor=1130818 objetivo=1190972 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1190972
+[eBPF] emisor=1130818 objetivo=1190972 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840202_5
+  error enviando SIGTERM a PID 1195205 : permission denied
+[eBPF] emisor=1130818 objetivo=1195205 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1195205
+[eBPF] emisor=1130818 objetivo=1195205 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840202_4
+  error enviando SIGTERM a PID 1195109 : permission denied
+[eBPF] emisor=1130818 objetivo=1195109 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1195109
+[eBPF] emisor=1130818 objetivo=1195109 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789840203
+  error enviando SIGTERM a PID 1195271 : permission denied
+[eBPF] emisor=1130818 objetivo=1195271 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1195271
+[eBPF] emisor=1130818 objetivo=1195271 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840202_3
+  error enviando SIGTERM a PID 1195042 : permission denied
+[eBPF] emisor=1130818 objetivo=1195042 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1195042
+[eBPF] emisor=1130818 objetivo=1195042 señal=9
+[loop] RAM total=6991340KB libre=844476KB uso=6146864KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=820672KB uso=6170668KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=837624KB uso=6153716KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=792092KB uso=6199248KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789840321_1
+  error enviando SIGTERM a PID 1196763 : permission denied
+[eBPF] emisor=1130818 objetivo=1196763 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1196763
+[eBPF] emisor=1130818 objetivo=1196763 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840081_1
+  error enviando SIGTERM a PID 1192796 : permission denied
+[eBPF] emisor=1130818 objetivo=1192796 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1192796
+[eBPF] emisor=1130818 objetivo=1192796 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840322_5
+  error enviando SIGTERM a PID 1197037 : permission denied
+[eBPF] emisor=1130818 objetivo=1197037 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1197037
+[eBPF] emisor=1130818 objetivo=1197037 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840322_4
+  error enviando SIGTERM a PID 1196967 : permission denied
+[eBPF] emisor=1130818 objetivo=1196967 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1196967
+[eBPF] emisor=1130818 objetivo=1196967 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789840323
+  error enviando SIGTERM a PID 1197120 : permission denied
+[eBPF] emisor=1130818 objetivo=1197120 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1197120
+[eBPF] emisor=1130818 objetivo=1197120 señal=9
+[loop] RAM total=6991340KB libre=848488KB uso=6142852KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=822672KB uso=6168668KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=845884KB uso=6145456KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=872996KB uso=6118344KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789840446_5
+  error enviando SIGTERM a PID 1198979 : permission denied
+[eBPF] emisor=1130818 objetivo=1198979 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1198979
+[eBPF] emisor=1130818 objetivo=1198979 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840444_3
+  error enviando SIGTERM a PID 1198847 : permission denied
+[eBPF] emisor=1130818 objetivo=1198847 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1198847
+[eBPF] emisor=1130818 objetivo=1198847 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840443_2
+  error enviando SIGTERM a PID 1198780 : permission denied
+[eBPF] emisor=1130818 objetivo=1198780 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1198780
+[eBPF] emisor=1130818 objetivo=1198780 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840441_1
+  error enviando SIGTERM a PID 1198699 : permission denied
+[eBPF] emisor=1130818 objetivo=1198699 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1198699
+[eBPF] emisor=1130818 objetivo=1198699 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789840086
+  error enviando SIGTERM a PID 1193158 : permission denied
+[eBPF] emisor=1130818 objetivo=1193158 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1193158
+[eBPF] emisor=1130818 objetivo=1193158 señal=9
+[loop] RAM total=6991340KB libre=882788KB uso=6108552KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=785644KB uso=6205696KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=799044KB uso=6192296KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=777512KB uso=6213828KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789840563_5
+  error enviando SIGTERM a PID 1200910 : permission denied
+[eBPF] emisor=1130818 objetivo=1200910 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1200910
+[eBPF] emisor=1130818 objetivo=1200910 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840562_3
+  error enviando SIGTERM a PID 1200783 : permission denied
+[eBPF] emisor=1130818 objetivo=1200783 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1200783
+[eBPF] emisor=1130818 objetivo=1200783 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840562_2
+  error enviando SIGTERM a PID 1200696 : permission denied
+[eBPF] emisor=1130818 objetivo=1200696 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1200696
+[eBPF] emisor=1130818 objetivo=1200696 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840445_4
+  error enviando SIGTERM a PID 1198913 : permission denied
+[eBPF] emisor=1130818 objetivo=1198913 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1198913
+[eBPF] emisor=1130818 objetivo=1198913 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789840447
+  error enviando SIGTERM a PID 1199043 : permission denied
+[eBPF] emisor=1130818 objetivo=1199043 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1199043
+[eBPF] emisor=1130818 objetivo=1199043 señal=9
+[loop] RAM total=6991340KB libre=819348KB uso=6171992KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=842096KB uso=6149244KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=816988KB uso=6174352KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=791044KB uso=6200296KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789840682_5
+  error enviando SIGTERM a PID 1202982 : permission denied
+[eBPF] emisor=1130818 objetivo=1202982 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1202982
+[eBPF] emisor=1130818 objetivo=1202982 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840563_4
+  error enviando SIGTERM a PID 1200848 : permission denied
+[eBPF] emisor=1130818 objetivo=1200848 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1200848
+[eBPF] emisor=1130818 objetivo=1200848 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789840563
+  error enviando SIGTERM a PID 1200975 : permission denied
+[eBPF] emisor=1130818 objetivo=1200975 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1200975
+[eBPF] emisor=1130818 objetivo=1200975 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840681_3
+  error enviando SIGTERM a PID 1202846 : permission denied
+[eBPF] emisor=1130818 objetivo=1202846 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1202846
+[eBPF] emisor=1130818 objetivo=1202846 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840681_2
+  error enviando SIGTERM a PID 1202781 : permission denied
+[eBPF] emisor=1130818 objetivo=1202781 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1202781
+[eBPF] emisor=1130818 objetivo=1202781 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789840683
+  error enviando SIGTERM a PID 1203045 : permission denied
+[eBPF] emisor=1130818 objetivo=1203045 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1203045
+[eBPF] emisor=1130818 objetivo=1203045 señal=9
+[loop] RAM total=6991340KB libre=825000KB uso=6166340KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=811800KB uso=6179540KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=797464KB uso=6193876KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=657136KB uso=6334204KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789840802_2
+  error enviando SIGTERM a PID 1205092 : permission denied
+[eBPF] emisor=1130818 objetivo=1205092 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1205092
+[eBPF] emisor=1130818 objetivo=1205092 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840681_1
+  error enviando SIGTERM a PID 1202702 : permission denied
+[eBPF] emisor=1130818 objetivo=1202702 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1202702
+[eBPF] emisor=1130818 objetivo=1202702 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840805_4
+  error enviando SIGTERM a PID 1205266 : permission denied
+[eBPF] emisor=1130818 objetivo=1205266 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1205266
+[eBPF] emisor=1130818 objetivo=1205266 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840804_3
+  error enviando SIGTERM a PID 1205181 : permission denied
+[eBPF] emisor=1130818 objetivo=1205181 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1205181
+[eBPF] emisor=1130818 objetivo=1205181 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840201_1
+  error enviando SIGTERM a PID 1194895 : permission denied
+[eBPF] emisor=1130818 objetivo=1194895 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1194895
+[eBPF] emisor=1130818 objetivo=1194895 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840806_5
+  error enviando SIGTERM a PID 1205340 : permission denied
+[eBPF] emisor=1130818 objetivo=1205340 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1205340
+[eBPF] emisor=1130818 objetivo=1205340 señal=9
+[loop] RAM total=6991340KB libre=1353096KB uso=5638244KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1132940KB uso=5858400KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1352792KB uso=5638548KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1292856KB uso=5698484KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789840922_3
+  error enviando SIGTERM a PID 1207641 : permission denied
+[eBPF] emisor=1130818 objetivo=1207641 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1207641
+[eBPF] emisor=1130818 objetivo=1207641 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840321_2
+  error enviando SIGTERM a PID 1196839 : permission denied
+[eBPF] emisor=1130818 objetivo=1196839 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1196839
+[eBPF] emisor=1130818 objetivo=1196839 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840922_5
+  error enviando SIGTERM a PID 1207773 : permission denied
+[eBPF] emisor=1130818 objetivo=1207773 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1207773
+[eBPF] emisor=1130818 objetivo=1207773 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789840923
+  error enviando SIGTERM a PID 1207839 : permission denied
+[eBPF] emisor=1130818 objetivo=1207839 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1207839
+[eBPF] emisor=1130818 objetivo=1207839 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840682_4
+  error enviando SIGTERM a PID 1202915 : permission denied
+[eBPF] emisor=1130818 objetivo=1202915 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1202915
+[eBPF] emisor=1130818 objetivo=1202915 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840922_4
+  error enviando SIGTERM a PID 1207707 : permission denied
+[eBPF] emisor=1130818 objetivo=1207707 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1207707
+[eBPF] emisor=1130818 objetivo=1207707 señal=9
+[loop] RAM total=6991340KB libre=1339728KB uso=5651612KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1331632KB uso=5659708KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1295176KB uso=5696164KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1346948KB uso=5644392KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789840561_1
+  error enviando SIGTERM a PID 1200607 : permission denied
+[eBPF] emisor=1130818 objetivo=1200607 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1200607
+[eBPF] emisor=1130818 objetivo=1200607 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841043_4
+  error enviando SIGTERM a PID 1210060 : permission denied
+[eBPF] emisor=1130818 objetivo=1210060 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1210060
+[eBPF] emisor=1130818 objetivo=1210060 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841042_2
+  error enviando SIGTERM a PID 1209932 : permission denied
+[eBPF] emisor=1130818 objetivo=1209932 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1209932
+[eBPF] emisor=1130818 objetivo=1209932 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840801_1
+  error enviando SIGTERM a PID 1204981 : permission denied
+[eBPF] emisor=1130818 objetivo=1204981 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1204981
+[eBPF] emisor=1130818 objetivo=1204981 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840921_1
+  error enviando SIGTERM a PID 1207496 : permission denied
+[eBPF] emisor=1130818 objetivo=1207496 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1207496
+[eBPF] emisor=1130818 objetivo=1207496 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841043_5
+  error enviando SIGTERM a PID 1210129 : permission denied
+[eBPF] emisor=1130818 objetivo=1210129 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1210129
+[eBPF] emisor=1130818 objetivo=1210129 señal=9
+[loop] RAM total=6991340KB libre=1341992KB uso=5649348KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1380628KB uso=5610712KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1333392KB uso=5657948KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1354040KB uso=5637300KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789841165_4
+  error enviando SIGTERM a PID 1212297 : permission denied
+[eBPF] emisor=1130818 objetivo=1212297 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1212297
+[eBPF] emisor=1130818 objetivo=1212297 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841042_3
+  error enviando SIGTERM a PID 1209997 : permission denied
+[eBPF] emisor=1130818 objetivo=1209997 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1209997
+[eBPF] emisor=1130818 objetivo=1209997 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789841167
+  error enviando SIGTERM a PID 1212439 : permission denied
+[eBPF] emisor=1130818 objetivo=1212439 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1212439
+[eBPF] emisor=1130818 objetivo=1212439 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841166_5
+  error enviando SIGTERM a PID 1212367 : permission denied
+[eBPF] emisor=1130818 objetivo=1212367 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1212367
+[eBPF] emisor=1130818 objetivo=1212367 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841162_2
+  error enviando SIGTERM a PID 1212159 : permission denied
+[eBPF] emisor=1130818 objetivo=1212159 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1212159
+[eBPF] emisor=1130818 objetivo=1212159 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841161_1
+  error enviando SIGTERM a PID 1212072 : permission denied
+[eBPF] emisor=1130818 objetivo=1212072 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1212072
+[eBPF] emisor=1130818 objetivo=1212072 señal=9
+[loop] RAM total=6991340KB libre=1343540KB uso=5647800KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1350788KB uso=5640552KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1329152KB uso=5662188KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1316496KB uso=5674844KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789841281_3
+  error enviando SIGTERM a PID 1214458 : permission denied
+[eBPF] emisor=1130818 objetivo=1214458 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1214458
+[eBPF] emisor=1130818 objetivo=1214458 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841281_2
+  error enviando SIGTERM a PID 1214390 : permission denied
+[eBPF] emisor=1130818 objetivo=1214390 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1214390
+[eBPF] emisor=1130818 objetivo=1214390 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789841283
+  error enviando SIGTERM a PID 1214688 : permission denied
+[eBPF] emisor=1130818 objetivo=1214688 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1214688
+[eBPF] emisor=1130818 objetivo=1214688 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841282_5
+  error enviando SIGTERM a PID 1214618 : permission denied
+[eBPF] emisor=1130818 objetivo=1214618 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1214618
+[eBPF] emisor=1130818 objetivo=1214618 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789841043
+  error enviando SIGTERM a PID 1210195 : permission denied
+[eBPF] emisor=1130818 objetivo=1210195 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1210195
+[eBPF] emisor=1130818 objetivo=1210195 señal=9
+[loop] RAM total=6991340KB libre=1362488KB uso=5628852KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1379228KB uso=5612112KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1302020KB uso=5689320KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1305000KB uso=5686340KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789841281_1
+  error enviando SIGTERM a PID 1214313 : permission denied
+[eBPF] emisor=1130818 objetivo=1214313 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1214313
+[eBPF] emisor=1130818 objetivo=1214313 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841411_5
+  error enviando SIGTERM a PID 1216808 : permission denied
+[eBPF] emisor=1130818 objetivo=1216808 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1216808
+[eBPF] emisor=1130818 objetivo=1216808 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841282_4
+  error enviando SIGTERM a PID 1214546 : permission denied
+[eBPF] emisor=1130818 objetivo=1214546 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1214546
+[eBPF] emisor=1130818 objetivo=1214546 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789841411
+  error enviando SIGTERM a PID 1216877 : permission denied
+[eBPF] emisor=1130818 objetivo=1216877 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1216877
+[eBPF] emisor=1130818 objetivo=1216877 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841409_3
+  error enviando SIGTERM a PID 1216673 : permission denied
+[eBPF] emisor=1130818 objetivo=1216673 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1216673
+[eBPF] emisor=1130818 objetivo=1216673 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841401_1
+  error enviando SIGTERM a PID 1216481 : permission denied
+[eBPF] emisor=1130818 objetivo=1216481 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1216481
+[eBPF] emisor=1130818 objetivo=1216481 señal=9
+[loop] RAM total=6991340KB libre=1034348KB uso=5956992KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=666964KB uso=6324376KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=683244KB uso=6308096KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=799552KB uso=6191788KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789841163_3
+  error enviando SIGTERM a PID 1212231 : permission denied
+[eBPF] emisor=1130818 objetivo=1212231 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1212231
+[eBPF] emisor=1130818 objetivo=1212231 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841524_5
+  error enviando SIGTERM a PID 1219170 : permission denied
+[eBPF] emisor=1130818 objetivo=1219170 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1219170
+[eBPF] emisor=1130818 objetivo=1219170 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841523_4
+  error enviando SIGTERM a PID 1219105 : permission denied
+[eBPF] emisor=1130818 objetivo=1219105 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1219105
+[eBPF] emisor=1130818 objetivo=1219105 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841523_3
+  error enviando SIGTERM a PID 1219039 : permission denied
+[eBPF] emisor=1130818 objetivo=1219039 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1219039
+[eBPF] emisor=1130818 objetivo=1219039 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789840921_2
+  error enviando SIGTERM a PID 1207578 : permission denied
+[eBPF] emisor=1130818 objetivo=1207578 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1207578
+[eBPF] emisor=1130818 objetivo=1207578 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789840807
+  error enviando SIGTERM a PID 1205424 : permission denied
+[eBPF] emisor=1130818 objetivo=1205424 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1205424
+[eBPF] emisor=1130818 objetivo=1205424 señal=9
+[loop] RAM total=6991340KB libre=785284KB uso=6206056KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=810728KB uso=6180612KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=802504KB uso=6188836KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=816296KB uso=6175044KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789841404_2
+  error enviando SIGTERM a PID 1216579 : permission denied
+[eBPF] emisor=1130818 objetivo=1216579 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1216579
+[eBPF] emisor=1130818 objetivo=1216579 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841521_1
+  error enviando SIGTERM a PID 1218891 : permission denied
+[eBPF] emisor=1130818 objetivo=1218891 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1218891
+[eBPF] emisor=1130818 objetivo=1218891 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841642_3
+  error enviando SIGTERM a PID 1221551 : permission denied
+[eBPF] emisor=1130818 objetivo=1221551 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1221551
+[eBPF] emisor=1130818 objetivo=1221551 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841522_2
+  error enviando SIGTERM a PID 1218970 : permission denied
+[eBPF] emisor=1130818 objetivo=1218970 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1218970
+[eBPF] emisor=1130818 objetivo=1218970 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841643_5
+  error enviando SIGTERM a PID 1221686 : permission denied
+[eBPF] emisor=1130818 objetivo=1221686 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1221686
+[eBPF] emisor=1130818 objetivo=1221686 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789841643
+  error enviando SIGTERM a PID 1221752 : permission denied
+[eBPF] emisor=1130818 objetivo=1221752 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1221752
+[eBPF] emisor=1130818 objetivo=1221752 señal=9
+[loop] RAM total=6991340KB libre=806308KB uso=6185032KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=743492KB uso=6247848KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1149860KB uso=5841480KB | procesos en contenedores=6
+[loop] RAM total=6991340KB libre=1186388KB uso=5804952KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789841761_1
+  error enviando SIGTERM a PID 1223798 : permission denied
+[eBPF] emisor=1130818 objetivo=1223798 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1223798
+[eBPF] emisor=1130818 objetivo=1223798 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841642_2
+  error enviando SIGTERM a PID 1221491 : permission denied
+[eBPF] emisor=1130818 objetivo=1221491 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1221491
+[eBPF] emisor=1130818 objetivo=1221491 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841762_4
+  error enviando SIGTERM a PID 1224012 : permission denied
+[eBPF] emisor=1130818 objetivo=1224012 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1224012
+[eBPF] emisor=1130818 objetivo=1224012 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841762_3
+  error enviando SIGTERM a PID 1223944 : permission denied
+[eBPF] emisor=1130818 objetivo=1223944 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1223944
+[eBPF] emisor=1130818 objetivo=1223944 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789841524
+  error enviando SIGTERM a PID 1219241 : permission denied
+[eBPF] emisor=1130818 objetivo=1219241 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1219241
+[eBPF] emisor=1130818 objetivo=1219241 señal=9
+[loop] RAM total=6991340KB libre=1130080KB uso=5861260KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=990016KB uso=6001324KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1161276KB uso=5830064KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1128036KB uso=5863304KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789841762_2
+  error enviando SIGTERM a PID 1223882 : permission denied
+[eBPF] emisor=1130818 objetivo=1223882 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1223882
+[eBPF] emisor=1130818 objetivo=1223882 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841641_1
+  error enviando SIGTERM a PID 1221400 : permission denied
+[eBPF] emisor=1130818 objetivo=1221400 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1221400
+[eBPF] emisor=1130818 objetivo=1221400 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789841886
+  error enviando SIGTERM a PID 1226091 : permission denied
+[eBPF] emisor=1130818 objetivo=1226091 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1226091
+[eBPF] emisor=1130818 objetivo=1226091 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841410_4
+  error enviando SIGTERM a PID 1216736 : permission denied
+[eBPF] emisor=1130818 objetivo=1216736 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1216736
+[eBPF] emisor=1130818 objetivo=1216736 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841884_4
+  error enviando SIGTERM a PID 1225959 : permission denied
+[eBPF] emisor=1130818 objetivo=1225959 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1225959
+[eBPF] emisor=1130818 objetivo=1225959 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841883_3
+  error enviando SIGTERM a PID 1225890 : permission denied
+[eBPF] emisor=1130818 objetivo=1225890 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1225890
+[eBPF] emisor=1130818 objetivo=1225890 señal=9
+[loop] RAM total=6991340KB libre=1215788KB uso=5775552KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1199356KB uso=5791984KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1166932KB uso=5824408KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1165316KB uso=5826024KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789842003_5
+  error enviando SIGTERM a PID 1227818 : permission denied
+[eBPF] emisor=1130818 objetivo=1227818 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1227818
+[eBPF] emisor=1130818 objetivo=1227818 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842002_2
+  error enviando SIGTERM a PID 1227598 : permission denied
+[eBPF] emisor=1130818 objetivo=1227598 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1227598
+[eBPF] emisor=1130818 objetivo=1227598 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841885_5
+  error enviando SIGTERM a PID 1226028 : permission denied
+[eBPF] emisor=1130818 objetivo=1226028 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1226028
+[eBPF] emisor=1130818 objetivo=1226028 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789841882_2
+  error enviando SIGTERM a PID 1225821 : permission denied
+[eBPF] emisor=1130818 objetivo=1225821 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1225821
+[eBPF] emisor=1130818 objetivo=1225821 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789841763
+  error enviando SIGTERM a PID 1224139 : permission denied
+[eBPF] emisor=1130818 objetivo=1224139 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1224139
+[eBPF] emisor=1130818 objetivo=1224139 señal=9
+[loop] RAM total=6991340KB libre=1132936KB uso=5858404KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1108480KB uso=5882860KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1054548KB uso=5936792KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1164032KB uso=5827308KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789842002_4
+  error enviando SIGTERM a PID 1227728 : permission denied
+[eBPF] emisor=1130818 objetivo=1227728 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1227728
+[eBPF] emisor=1130818 objetivo=1227728 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842001_1
+[eBPF] emisor=1130818 objetivo=1227521 señal=15
+  error enviando SIGTERM a PID 1227521 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1227521
+[eBPF] emisor=1130818 objetivo=1227521 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842122_4
+  error enviando SIGTERM a PID 1229564 : permission denied
+[eBPF] emisor=1130818 objetivo=1229564 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1229564
+[eBPF] emisor=1130818 objetivo=1229564 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842121_3
+  error enviando SIGTERM a PID 1229499 : permission denied
+[eBPF] emisor=1130818 objetivo=1229499 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1229499
+[eBPF] emisor=1130818 objetivo=1229499 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842003
+  error enviando SIGTERM a PID 1227888 : permission denied
+[eBPF] emisor=1130818 objetivo=1227888 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1227888
+[eBPF] emisor=1130818 objetivo=1227888 señal=9
+[loop] RAM total=6991340KB libre=887440KB uso=6103900KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=797604KB uso=6193736KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=952040KB uso=6039300KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=926932KB uso=6064408KB | procesos en contenedores=8
+[decision] Deteniendo contenedor excedente: carga_1789842122_5
+  error enviando SIGTERM a PID 1229655 : permission denied
+[eBPF] emisor=1130818 objetivo=1229655 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1229655
+[eBPF] emisor=1130818 objetivo=1229655 señal=9
+[loop] RAM total=6991340KB libre=697348KB uso=6293992KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789842121_1
+  error enviando SIGTERM a PID 1229352 : permission denied
+[eBPF] emisor=1130818 objetivo=1229352 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1229352
+[eBPF] emisor=1130818 objetivo=1229352 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842248_2
+  error enviando SIGTERM a PID 1232036 : permission denied
+[eBPF] emisor=1130818 objetivo=1232036 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1232036
+[eBPF] emisor=1130818 objetivo=1232036 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842241_1
+  error enviando SIGTERM a PID 1231615 : permission denied
+[eBPF] emisor=1130818 objetivo=1231615 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1231615
+[eBPF] emisor=1130818 objetivo=1231615 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842262
+  error enviando SIGTERM a PID 1232310 : permission denied
+[eBPF] emisor=1130818 objetivo=1232310 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1232310
+[eBPF] emisor=1130818 objetivo=1232310 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842262_5
+  error enviando SIGTERM a PID 1232241 : permission denied
+[eBPF] emisor=1130818 objetivo=1232241 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1232241
+[eBPF] emisor=1130818 objetivo=1232241 señal=9
+[loop] RAM total=6991340KB libre=777444KB uso=6213896KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=729208KB uso=6262132KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=694700KB uso=6296640KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789842262_4
+  error enviando SIGTERM a PID 1232178 : permission denied
+[eBPF] emisor=1130818 objetivo=1232178 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1232178
+[eBPF] emisor=1130818 objetivo=1232178 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842363
+  error enviando SIGTERM a PID 1234083 : permission denied
+[eBPF] emisor=1130818 objetivo=1234083 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1234083
+[eBPF] emisor=1130818 objetivo=1234083 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842122
+  error enviando SIGTERM a PID 1229721 : permission denied
+[eBPF] emisor=1130818 objetivo=1229721 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1229721
+[eBPF] emisor=1130818 objetivo=1229721 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842002_3
+  error enviando SIGTERM a PID 1227658 : permission denied
+[eBPF] emisor=1130818 objetivo=1227658 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1227658
+[eBPF] emisor=1130818 objetivo=1227658 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842362_5
+  error enviando SIGTERM a PID 1234014 : permission denied
+[eBPF] emisor=1130818 objetivo=1234014 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1234014
+[eBPF] emisor=1130818 objetivo=1234014 señal=9
+[loop] RAM total=6991340KB libre=724000KB uso=6267340KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=838276KB uso=6153064KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1046732KB uso=5944608KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=991952KB uso=5999388KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789842481_2
+  error enviando SIGTERM a PID 1235620 : permission denied
+[eBPF] emisor=1130818 objetivo=1235620 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1235620
+[eBPF] emisor=1130818 objetivo=1235620 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842481_1
+  error enviando SIGTERM a PID 1235542 : permission denied
+[eBPF] emisor=1130818 objetivo=1235542 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1235542
+[eBPF] emisor=1130818 objetivo=1235542 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842262_3
+  error enviando SIGTERM a PID 1232114 : permission denied
+[eBPF] emisor=1130818 objetivo=1232114 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1232114
+[eBPF] emisor=1130818 objetivo=1232114 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842483_5
+  error enviando SIGTERM a PID 1235818 : permission denied
+[eBPF] emisor=1130818 objetivo=1235818 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1235818
+[eBPF] emisor=1130818 objetivo=1235818 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842482_4
+  error enviando SIGTERM a PID 1235752 : permission denied
+[eBPF] emisor=1130818 objetivo=1235752 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1235752
+[eBPF] emisor=1130818 objetivo=1235752 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842483
+  error enviando SIGTERM a PID 1235878 : permission denied
+[eBPF] emisor=1130818 objetivo=1235878 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1235878
+[eBPF] emisor=1130818 objetivo=1235878 señal=9
+[loop] RAM total=6991340KB libre=1048416KB uso=5942924KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1018464KB uso=5972876KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1135596KB uso=5855744KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1064624KB uso=5926716KB | procesos en contenedores=11
+[decision] Deteniendo contenedor excedente: carga_1789842605_5
+  error enviando SIGTERM a PID 1237897 : permission denied
+[eBPF] emisor=1130818 objetivo=1237897 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1237897
+[eBPF] emisor=1130818 objetivo=1237897 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842601_1
+  error enviando SIGTERM a PID 1237614 : permission denied
+[eBPF] emisor=1130818 objetivo=1237614 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1237614
+[eBPF] emisor=1130818 objetivo=1237614 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842606
+  error enviando SIGTERM a PID 1237961 : permission denied
+[eBPF] emisor=1130818 objetivo=1237961 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1237961
+[eBPF] emisor=1130818 objetivo=1237961 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842362_4
+  error enviando SIGTERM a PID 1233949 : permission denied
+[eBPF] emisor=1130818 objetivo=1233949 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1233949
+[eBPF] emisor=1130818 objetivo=1233949 señal=9
+[loop] RAM total=6991340KB libre=1112216KB uso=5879124KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1147756KB uso=5843584KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1098536KB uso=5892804KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1044044KB uso=5947296KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789842604_4
+  error enviando SIGTERM a PID 1237833 : permission denied
+[eBPF] emisor=1130818 objetivo=1237833 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1237833
+[eBPF] emisor=1130818 objetivo=1237833 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842603_3
+  error enviando SIGTERM a PID 1237766 : permission denied
+[eBPF] emisor=1130818 objetivo=1237766 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1237766
+[eBPF] emisor=1130818 objetivo=1237766 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842722_5
+  error enviando SIGTERM a PID 1239961 : permission denied
+[eBPF] emisor=1130818 objetivo=1239961 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1239961
+[eBPF] emisor=1130818 objetivo=1239961 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842721_3
+  error enviando SIGTERM a PID 1239827 : permission denied
+[eBPF] emisor=1130818 objetivo=1239827 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1239827
+[eBPF] emisor=1130818 objetivo=1239827 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842602_2
+  error enviando SIGTERM a PID 1237699 : permission denied
+[eBPF] emisor=1130818 objetivo=1237699 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1237699
+[eBPF] emisor=1130818 objetivo=1237699 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842722
+  error enviando SIGTERM a PID 1240025 : permission denied
+[eBPF] emisor=1130818 objetivo=1240025 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1240025
+[eBPF] emisor=1130818 objetivo=1240025 señal=9
+[loop] RAM total=6991340KB libre=692936KB uso=6298404KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=689660KB uso=6301680KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=517628KB uso=6473712KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=524672KB uso=6466668KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789842722_4
+  error enviando SIGTERM a PID 1239892 : permission denied
+[eBPF] emisor=1130818 objetivo=1239892 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1239892
+[eBPF] emisor=1130818 objetivo=1239892 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842482_3
+  error enviando SIGTERM a PID 1235685 : permission denied
+[eBPF] emisor=1130818 objetivo=1235685 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1235685
+[eBPF] emisor=1130818 objetivo=1235685 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842842_4
+[eBPF] emisor=1130818 objetivo=1242285 señal=15
+  error enviando SIGTERM a PID 1242285 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1242285
+[eBPF] emisor=1130818 objetivo=1242285 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842362_3
+  error enviando SIGTERM a PID 1233878 : permission denied
+[eBPF] emisor=1130818 objetivo=1233878 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1233878
+[eBPF] emisor=1130818 objetivo=1233878 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842843
+  error enviando SIGTERM a PID 1242422 : permission denied
+[eBPF] emisor=1130818 objetivo=1242422 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1242422
+[eBPF] emisor=1130818 objetivo=1242422 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842841_1
+  error enviando SIGTERM a PID 1242068 : permission denied
+[eBPF] emisor=1130818 objetivo=1242068 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1242068
+[eBPF] emisor=1130818 objetivo=1242068 señal=9
+[loop] RAM total=6991340KB libre=654912KB uso=6336428KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=675368KB uso=6315972KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=598524KB uso=6392816KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=658092KB uso=6333248KB | procesos en contenedores=8
+[decision] Deteniendo contenedor excedente: carga_1789842961_1
+  error enviando SIGTERM a PID 1244300 : permission denied
+[eBPF] emisor=1130818 objetivo=1244300 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1244300
+[eBPF] emisor=1130818 objetivo=1244300 señal=9
+[loop] RAM total=6991340KB libre=1025360KB uso=5965980KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789842979_5
+  error enviando SIGTERM a PID 1244883 : permission denied
+[eBPF] emisor=1130818 objetivo=1244883 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1244883
+[eBPF] emisor=1130818 objetivo=1244883 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842721_1
+  error enviando SIGTERM a PID 1239675 : permission denied
+[eBPF] emisor=1130818 objetivo=1239675 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1239675
+[eBPF] emisor=1130818 objetivo=1239675 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789842979
+  error enviando SIGTERM a PID 1244948 : permission denied
+[eBPF] emisor=1130818 objetivo=1244948 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1244948
+[eBPF] emisor=1130818 objetivo=1244948 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842979_4
+[eBPF] emisor=1130818 objetivo=1244816 señal=15
+  error enviando SIGTERM a PID 1244816 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1244816
+[eBPF] emisor=1130818 objetivo=1244816 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842843_5
+  error enviando SIGTERM a PID 1242352 : permission denied
+[eBPF] emisor=1130818 objetivo=1242352 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1242352
+[eBPF] emisor=1130818 objetivo=1242352 señal=9
+[loop] RAM total=6991340KB libre=1072448KB uso=5918892KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1001616KB uso=5989724KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=990752KB uso=6000588KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789843082_5
+  error enviando SIGTERM a PID 1246595 : permission denied
+[eBPF] emisor=1130818 objetivo=1246595 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1246595
+[eBPF] emisor=1130818 objetivo=1246595 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843081_1
+  error enviando SIGTERM a PID 1246290 : permission denied
+[eBPF] emisor=1130818 objetivo=1246290 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1246290
+[eBPF] emisor=1130818 objetivo=1246290 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789843083
+  error enviando SIGTERM a PID 1246657 : permission denied
+[eBPF] emisor=1130818 objetivo=1246657 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1246657
+[eBPF] emisor=1130818 objetivo=1246657 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842721_2
+  error enviando SIGTERM a PID 1239759 : permission denied
+[eBPF] emisor=1130818 objetivo=1239759 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1239759
+[eBPF] emisor=1130818 objetivo=1239759 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843082_4
+  error enviando SIGTERM a PID 1246499 : permission denied
+[eBPF] emisor=1130818 objetivo=1246499 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1246499
+[eBPF] emisor=1130818 objetivo=1246499 señal=9
+[loop] RAM total=6991340KB libre=1226160KB uso=5765180KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1167632KB uso=5823708KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1477108KB uso=5514232KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1248148KB uso=5743192KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789843203_4
+  error enviando SIGTERM a PID 1248596 : permission denied
+[eBPF] emisor=1130818 objetivo=1248596 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1248596
+[eBPF] emisor=1130818 objetivo=1248596 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843201_1
+  error enviando SIGTERM a PID 1248377 : permission denied
+[eBPF] emisor=1130818 objetivo=1248377 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1248377
+[eBPF] emisor=1130818 objetivo=1248377 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842969_2
+  PID inválido para carga_1789842969_2
+[decision] Deteniendo contenedor excedente: intruso_1789843203
+  error enviando SIGTERM a PID 1248721 : permission denied
+[eBPF] emisor=1130818 objetivo=1248721 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1248721
+[eBPF] emisor=1130818 objetivo=1248721 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843082_3
+  error enviando SIGTERM a PID 1246435 : permission denied
+[eBPF] emisor=1130818 objetivo=1246435 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1246435
+[eBPF] emisor=1130818 objetivo=1246435 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842978_3
+  error enviando SIGTERM a PID 1244750 : permission denied
+[eBPF] emisor=1130818 objetivo=1244750 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1244750
+[eBPF] emisor=1130818 objetivo=1244750 señal=9
+[loop] RAM total=6991340KB libre=1335584KB uso=5655756KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1394304KB uso=5597036KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1350492KB uso=5640848KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1344292KB uso=5647048KB | procesos en contenedores=7
+[decision] Deteniendo contenedor excedente: carga_1789843321_1
+  error enviando SIGTERM a PID 1250303 : permission denied
+[eBPF] emisor=1130818 objetivo=1250303 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1250303
+[eBPF] emisor=1130818 objetivo=1250303 señal=9
+[loop] RAM total=6991340KB libre=1288288KB uso=5703052KB | procesos en contenedores=11
+[decision] Deteniendo contenedor excedente: carga_1789843335_5
+  error enviando SIGTERM a PID 1250786 : permission denied
+[eBPF] emisor=1130818 objetivo=1250786 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1250786
+[eBPF] emisor=1130818 objetivo=1250786 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843202_3
+  error enviando SIGTERM a PID 1248526 : permission denied
+[eBPF] emisor=1130818 objetivo=1248526 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1248526
+[eBPF] emisor=1130818 objetivo=1248526 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789843335
+  error enviando SIGTERM a PID 1250845 : permission denied
+[eBPF] emisor=1130818 objetivo=1250845 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1250845
+[eBPF] emisor=1130818 objetivo=1250845 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843335_4
+  error enviando SIGTERM a PID 1250711 : permission denied
+[eBPF] emisor=1130818 objetivo=1250711 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1250711
+[eBPF] emisor=1130818 objetivo=1250711 señal=9
+[loop] RAM total=6991340KB libre=1286340KB uso=5705000KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1161404KB uso=5829936KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1164672KB uso=5826668KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789843441_2
+  error enviando SIGTERM a PID 1252407 : permission denied
+[eBPF] emisor=1130818 objetivo=1252407 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1252407
+[eBPF] emisor=1130818 objetivo=1252407 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843442_4
+  error enviando SIGTERM a PID 1252530 : permission denied
+[eBPF] emisor=1130818 objetivo=1252530 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1252530
+[eBPF] emisor=1130818 objetivo=1252530 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843441_1
+  error enviando SIGTERM a PID 1252323 : permission denied
+[eBPF] emisor=1130818 objetivo=1252323 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1252323
+[eBPF] emisor=1130818 objetivo=1252323 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843331_2
+  error enviando SIGTERM a PID 1250560 : permission denied
+[eBPF] emisor=1130818 objetivo=1250560 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1250560
+[eBPF] emisor=1130818 objetivo=1250560 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843442_5
+  error enviando SIGTERM a PID 1252597 : permission denied
+[eBPF] emisor=1130818 objetivo=1252597 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1252597
+[eBPF] emisor=1130818 objetivo=1252597 señal=9
+[loop] RAM total=6991340KB libre=774464KB uso=6216876KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=921392KB uso=6069948KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=733072KB uso=6258268KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=689712KB uso=6301628KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789843334_3
+  error enviando SIGTERM a PID 1250643 : permission denied
+[eBPF] emisor=1130818 objetivo=1250643 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1250643
+[eBPF] emisor=1130818 objetivo=1250643 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789842841_2
+  error enviando SIGTERM a PID 1242156 : permission denied
+[eBPF] emisor=1130818 objetivo=1242156 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1242156
+[eBPF] emisor=1130818 objetivo=1242156 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843441_3
+  error enviando SIGTERM a PID 1252467 : permission denied
+[eBPF] emisor=1130818 objetivo=1252467 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1252467
+[eBPF] emisor=1130818 objetivo=1252467 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789843442
+  error enviando SIGTERM a PID 1252661 : permission denied
+[eBPF] emisor=1130818 objetivo=1252661 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1252661
+[eBPF] emisor=1130818 objetivo=1252661 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843202_2
+  error enviando SIGTERM a PID 1248456 : permission denied
+[eBPF] emisor=1130818 objetivo=1248456 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1248456
+[eBPF] emisor=1130818 objetivo=1248456 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789843567
+  error enviando SIGTERM a PID 1254909 : permission denied
+[eBPF] emisor=1130818 objetivo=1254909 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1254909
+[eBPF] emisor=1130818 objetivo=1254909 señal=9
+[loop] RAM total=6991340KB libre=425268KB uso=6566072KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=620120KB uso=6371220KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=545272KB uso=6446068KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=456348KB uso=6534992KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789843683_4
+  error enviando SIGTERM a PID 1256755 : permission denied
+[eBPF] emisor=1130818 objetivo=1256755 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1256755
+[eBPF] emisor=1130818 objetivo=1256755 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843681_1
+  error enviando SIGTERM a PID 1256542 : permission denied
+[eBPF] emisor=1130818 objetivo=1256542 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1256542
+[eBPF] emisor=1130818 objetivo=1256542 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843683_5
+  error enviando SIGTERM a PID 1256820 : permission denied
+[eBPF] emisor=1130818 objetivo=1256820 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1256820
+[eBPF] emisor=1130818 objetivo=1256820 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843682_3
+  error enviando SIGTERM a PID 1256687 : permission denied
+[eBPF] emisor=1130818 objetivo=1256687 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1256687
+[eBPF] emisor=1130818 objetivo=1256687 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843681_2
+  error enviando SIGTERM a PID 1256620 : permission denied
+[eBPF] emisor=1130818 objetivo=1256620 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1256620
+[eBPF] emisor=1130818 objetivo=1256620 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843567_5
+  error enviando SIGTERM a PID 1254843 : permission denied
+[eBPF] emisor=1130818 objetivo=1254843 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1254843
+[eBPF] emisor=1130818 objetivo=1254843 señal=9
+[loop] RAM total=6991340KB libre=498592KB uso=6492748KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=583496KB uso=6407844KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=671416KB uso=6319924KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=420716KB uso=6570624KB | procesos en contenedores=10
+[decision] Deteniendo contenedor excedente: carga_1789843803_5
+[eBPF] emisor=1130818 objetivo=1258768 señal=15
+  error enviando SIGTERM a PID 1258768 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1258768
+[eBPF] emisor=1130818 objetivo=1258768 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843563_2
+  error enviando SIGTERM a PID 1254631 : permission denied
+[eBPF] emisor=1130818 objetivo=1254631 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1254631
+[eBPF] emisor=1130818 objetivo=1254631 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843801_1
+  error enviando SIGTERM a PID 1258468 : permission denied
+[eBPF] emisor=1130818 objetivo=1258468 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1258468
+[eBPF] emisor=1130818 objetivo=1258468 señal=9
+[loop] RAM total=6991340KB libre=470840KB uso=6520500KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=475448KB uso=6515892KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=238036KB uso=6753304KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=663916KB uso=6327424KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789843923_5
+  error enviando SIGTERM a PID 1260931 : permission denied
+[eBPF] emisor=1130818 objetivo=1260931 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1260931
+[eBPF] emisor=1130818 objetivo=1260931 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843802_4
+  error enviando SIGTERM a PID 1258682 : permission denied
+[eBPF] emisor=1130818 objetivo=1258682 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1258682
+[eBPF] emisor=1130818 objetivo=1258682 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843802_3
+  error enviando SIGTERM a PID 1258614 : permission denied
+[eBPF] emisor=1130818 objetivo=1258614 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1258614
+[eBPF] emisor=1130818 objetivo=1258614 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843922_2
+  error enviando SIGTERM a PID 1260729 : permission denied
+[eBPF] emisor=1130818 objetivo=1260729 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1260729
+[eBPF] emisor=1130818 objetivo=1260729 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789843684
+  error enviando SIGTERM a PID 1256884 : permission denied
+[eBPF] emisor=1130818 objetivo=1256884 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1256884
+[eBPF] emisor=1130818 objetivo=1256884 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843923_4
+  error enviando SIGTERM a PID 1260860 : permission denied
+[eBPF] emisor=1130818 objetivo=1260860 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1260860
+[eBPF] emisor=1130818 objetivo=1260860 señal=9
+[loop] RAM total=6991340KB libre=688972KB uso=6302368KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=756244KB uso=6235096KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=600496KB uso=6390844KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=471968KB uso=6519372KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789843922_3
+  error enviando SIGTERM a PID 1260797 : permission denied
+[eBPF] emisor=1130818 objetivo=1260797 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1260797
+[eBPF] emisor=1130818 objetivo=1260797 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844042_2
+  error enviando SIGTERM a PID 1263000 : permission denied
+[eBPF] emisor=1130818 objetivo=1263000 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1263000
+[eBPF] emisor=1130818 objetivo=1263000 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844045_5
+  error enviando SIGTERM a PID 1263212 : permission denied
+[eBPF] emisor=1130818 objetivo=1263212 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1263212
+[eBPF] emisor=1130818 objetivo=1263212 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844044_4
+  error enviando SIGTERM a PID 1263145 : permission denied
+[eBPF] emisor=1130818 objetivo=1263145 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1263145
+[eBPF] emisor=1130818 objetivo=1263145 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789843923
+  error enviando SIGTERM a PID 1260993 : permission denied
+[eBPF] emisor=1130818 objetivo=1260993 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1260993
+[eBPF] emisor=1130818 objetivo=1260993 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789843803
+  error enviando SIGTERM a PID 1258836 : permission denied
+[eBPF] emisor=1130818 objetivo=1258836 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1258836
+[eBPF] emisor=1130818 objetivo=1258836 señal=9
+[loop] RAM total=6991340KB libre=978976KB uso=6012364KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1020504KB uso=5970836KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1038332KB uso=5953008KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1069672KB uso=5921668KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789844162_3
+  error enviando SIGTERM a PID 1265450 : permission denied
+[eBPF] emisor=1130818 objetivo=1265450 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1265450
+[eBPF] emisor=1130818 objetivo=1265450 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844162_2
+  error enviando SIGTERM a PID 1265385 : permission denied
+[eBPF] emisor=1130818 objetivo=1265385 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1265385
+[eBPF] emisor=1130818 objetivo=1265385 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843921_1
+  error enviando SIGTERM a PID 1260647 : permission denied
+[eBPF] emisor=1130818 objetivo=1260647 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1260647
+[eBPF] emisor=1130818 objetivo=1260647 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844162_4
+  error enviando SIGTERM a PID 1265520 : permission denied
+[eBPF] emisor=1130818 objetivo=1265520 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1265520
+[eBPF] emisor=1130818 objetivo=1265520 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789844046
+  error enviando SIGTERM a PID 1263286 : permission denied
+[eBPF] emisor=1130818 objetivo=1263286 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1263286
+[eBPF] emisor=1130818 objetivo=1263286 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844161_1
+  error enviando SIGTERM a PID 1265303 : permission denied
+[eBPF] emisor=1130818 objetivo=1265303 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1265303
+[eBPF] emisor=1130818 objetivo=1265303 señal=9
+[loop] RAM total=6991340KB libre=1233008KB uso=5758332KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=871024KB uso=6120316KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=593236KB uso=6398104KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=777316KB uso=6214024KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789844282_4
+  error enviando SIGTERM a PID 1267915 : permission denied
+[eBPF] emisor=1130818 objetivo=1267915 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1267915
+[eBPF] emisor=1130818 objetivo=1267915 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789843802_2
+  error enviando SIGTERM a PID 1258550 : permission denied
+[eBPF] emisor=1130818 objetivo=1258550 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1258550
+[eBPF] emisor=1130818 objetivo=1258550 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844283_5
+  error enviando SIGTERM a PID 1267982 : permission denied
+[eBPF] emisor=1130818 objetivo=1267982 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1267982
+[eBPF] emisor=1130818 objetivo=1267982 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844282_2
+  error enviando SIGTERM a PID 1267775 : permission denied
+[eBPF] emisor=1130818 objetivo=1267775 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1267775
+[eBPF] emisor=1130818 objetivo=1267775 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844043_3
+  error enviando SIGTERM a PID 1263067 : permission denied
+[eBPF] emisor=1130818 objetivo=1263067 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1263067
+[eBPF] emisor=1130818 objetivo=1263067 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789844163
+  error enviando SIGTERM a PID 1265653 : permission denied
+[eBPF] emisor=1130818 objetivo=1265653 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1265653
+[eBPF] emisor=1130818 objetivo=1265653 señal=9
+[loop] RAM total=6991340KB libre=854140KB uso=6137200KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=474860KB uso=6516480KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=861708KB uso=6129632KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=792676KB uso=6198664KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789844401_1
+  error enviando SIGTERM a PID 1270115 : permission denied
+[eBPF] emisor=1130818 objetivo=1270115 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1270115
+[eBPF] emisor=1130818 objetivo=1270115 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844163_5
+  error enviando SIGTERM a PID 1265587 : permission denied
+[eBPF] emisor=1130818 objetivo=1265587 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1265587
+[eBPF] emisor=1130818 objetivo=1265587 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844404_4
+  error enviando SIGTERM a PID 1270354 : permission denied
+[eBPF] emisor=1130818 objetivo=1270354 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1270354
+[eBPF] emisor=1130818 objetivo=1270354 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844403_3
+  error enviando SIGTERM a PID 1270277 : permission denied
+[eBPF] emisor=1130818 objetivo=1270277 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1270277
+[eBPF] emisor=1130818 objetivo=1270277 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844406_5
+  error enviando SIGTERM a PID 1270425 : permission denied
+[eBPF] emisor=1130818 objetivo=1270425 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1270425
+[eBPF] emisor=1130818 objetivo=1270425 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789844283
+  error enviando SIGTERM a PID 1268044 : permission denied
+[eBPF] emisor=1130818 objetivo=1268044 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1268044
+[eBPF] emisor=1130818 objetivo=1268044 señal=9
+[loop] RAM total=6991340KB libre=863632KB uso=6127708KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=729584KB uso=6261756KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=663376KB uso=6327964KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=641864KB uso=6349476KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789844281_1
+  error enviando SIGTERM a PID 1267693 : permission denied
+[eBPF] emisor=1130818 objetivo=1267693 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1267693
+[eBPF] emisor=1130818 objetivo=1267693 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844521_3
+  error enviando SIGTERM a PID 1272788 : permission denied
+[eBPF] emisor=1130818 objetivo=1272788 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1272788
+[eBPF] emisor=1130818 objetivo=1272788 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844522_4
+  error enviando SIGTERM a PID 1272854 : permission denied
+[eBPF] emisor=1130818 objetivo=1272854 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1272854
+[eBPF] emisor=1130818 objetivo=1272854 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789844522
+  error enviando SIGTERM a PID 1272991 : permission denied
+[eBPF] emisor=1130818 objetivo=1272991 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1272991
+[eBPF] emisor=1130818 objetivo=1272991 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789844407
+  error enviando SIGTERM a PID 1270499 : permission denied
+[eBPF] emisor=1130818 objetivo=1270499 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1270499
+[eBPF] emisor=1130818 objetivo=1270499 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844521_2
+  error enviando SIGTERM a PID 1272718 : permission denied
+[eBPF] emisor=1130818 objetivo=1272718 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1272718
+[eBPF] emisor=1130818 objetivo=1272718 señal=9
+[loop] RAM total=6991340KB libre=604312KB uso=6387028KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=589484KB uso=6401856KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=882788KB uso=6108552KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=834160KB uso=6157180KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789844644_5
+  error enviando SIGTERM a PID 1275389 : permission denied
+[eBPF] emisor=1130818 objetivo=1275389 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1275389
+[eBPF] emisor=1130818 objetivo=1275389 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844643_4
+  error enviando SIGTERM a PID 1275320 : permission denied
+[eBPF] emisor=1130818 objetivo=1275320 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1275320
+[eBPF] emisor=1130818 objetivo=1275320 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844521_1
+  error enviando SIGTERM a PID 1272637 : permission denied
+[eBPF] emisor=1130818 objetivo=1272637 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1272637
+[eBPF] emisor=1130818 objetivo=1272637 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844041_1
+  error enviando SIGTERM a PID 1262910 : permission denied
+[eBPF] emisor=1130818 objetivo=1262910 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1262910
+[eBPF] emisor=1130818 objetivo=1262910 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789844645
+  error enviando SIGTERM a PID 1275454 : permission denied
+[eBPF] emisor=1130818 objetivo=1275454 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1275454
+[eBPF] emisor=1130818 objetivo=1275454 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844522_5
+  error enviando SIGTERM a PID 1272921 : permission denied
+[eBPF] emisor=1130818 objetivo=1272921 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1272921
+[eBPF] emisor=1130818 objetivo=1272921 señal=9
+[loop] RAM total=6991340KB libre=1003480KB uso=5987860KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1040704KB uso=5950636KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1257172KB uso=5734168KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1178340KB uso=5813000KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789844763_4
+  error enviando SIGTERM a PID 1277494 : permission denied
+[eBPF] emisor=1130818 objetivo=1277494 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1277494
+[eBPF] emisor=1130818 objetivo=1277494 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844762_3
+  error enviando SIGTERM a PID 1277431 : permission denied
+[eBPF] emisor=1130818 objetivo=1277431 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1277431
+[eBPF] emisor=1130818 objetivo=1277431 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844402_2
+  error enviando SIGTERM a PID 1270199 : permission denied
+[eBPF] emisor=1130818 objetivo=1270199 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1270199
+[eBPF] emisor=1130818 objetivo=1270199 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844764_5
+  error enviando SIGTERM a PID 1277563 : permission denied
+[eBPF] emisor=1130818 objetivo=1277563 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1277563
+[eBPF] emisor=1130818 objetivo=1277563 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844282_3
+  error enviando SIGTERM a PID 1267842 : permission denied
+[eBPF] emisor=1130818 objetivo=1267842 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1267842
+[eBPF] emisor=1130818 objetivo=1267842 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844761_1
+  error enviando SIGTERM a PID 1277278 : permission denied
+[eBPF] emisor=1130818 objetivo=1277278 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1277278
+[eBPF] emisor=1130818 objetivo=1277278 señal=9
+[loop] RAM total=6991340KB libre=1265332KB uso=5726008KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1231084KB uso=5760256KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1664348KB uso=5326992KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1222320KB uso=5769020KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789844883_5
+  error enviando SIGTERM a PID 1279671 : permission denied
+[eBPF] emisor=1130818 objetivo=1279671 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1279671
+[eBPF] emisor=1130818 objetivo=1279671 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844882_1
+  error enviando SIGTERM a PID 1279373 : permission denied
+[eBPF] emisor=1130818 objetivo=1279373 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1279373
+[eBPF] emisor=1130818 objetivo=1279373 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789844884
+  error enviando SIGTERM a PID 1279764 : permission denied
+[eBPF] emisor=1130818 objetivo=1279764 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1279764
+[eBPF] emisor=1130818 objetivo=1279764 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844882_3
+  error enviando SIGTERM a PID 1279522 : permission denied
+[eBPF] emisor=1130818 objetivo=1279522 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1279522
+[eBPF] emisor=1130818 objetivo=1279522 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844882_2
+  error enviando SIGTERM a PID 1279454 : permission denied
+[eBPF] emisor=1130818 objetivo=1279454 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1279454
+[eBPF] emisor=1130818 objetivo=1279454 señal=9
+[loop] RAM total=6991340KB libre=1301700KB uso=5689640KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1408372KB uso=5582968KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1359000KB uso=5632340KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1297532KB uso=5693808KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789845006_5
+  error enviando SIGTERM a PID 1281626 : permission denied
+[eBPF] emisor=1130818 objetivo=1281626 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1281626
+[eBPF] emisor=1130818 objetivo=1281626 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845005_3
+  error enviando SIGTERM a PID 1281504 : permission denied
+[eBPF] emisor=1130818 objetivo=1281504 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1281504
+[eBPF] emisor=1130818 objetivo=1281504 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844883_4
+  error enviando SIGTERM a PID 1279603 : permission denied
+[eBPF] emisor=1130818 objetivo=1279603 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1279603
+[eBPF] emisor=1130818 objetivo=1279603 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845006_4
+  error enviando SIGTERM a PID 1281566 : permission denied
+[eBPF] emisor=1130818 objetivo=1281566 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1281566
+[eBPF] emisor=1130818 objetivo=1281566 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789844641_1
+  error enviando SIGTERM a PID 1275096 : permission denied
+[eBPF] emisor=1130818 objetivo=1275096 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1275096
+[eBPF] emisor=1130818 objetivo=1275096 señal=9
+[loop] RAM total=6991340KB libre=1267960KB uso=5723380KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1259100KB uso=5732240KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1277416KB uso=5713924KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=1232940KB uso=5758400KB | procesos en contenedores=12
+[decision] Deteniendo contenedor excedente: carga_1789845001_1
+[eBPF] emisor=1130818 objetivo=1281354 señal=15
+  error enviando SIGTERM a PID 1281354 : permission denied
+  no respondió a SIGTERM, forzando SIGKILL a PID 1281354
+[eBPF] emisor=1130818 objetivo=1281354 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845124_3
+  error enviando SIGTERM a PID 1283965 : permission denied
+[eBPF] emisor=1130818 objetivo=1283965 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1283965
+[eBPF] emisor=1130818 objetivo=1283965 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845122_2
+  error enviando SIGTERM a PID 1283877 : permission denied
+[eBPF] emisor=1130818 objetivo=1283877 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1283877
+[eBPF] emisor=1130818 objetivo=1283877 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845121_1
+  error enviando SIGTERM a PID 1283786 : permission denied
+[eBPF] emisor=1130818 objetivo=1283786 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1283786
+[eBPF] emisor=1130818 objetivo=1283786 señal=9
+[decision] Deteniendo contenedor excedente: intruso_1789845128
+  error enviando SIGTERM a PID 1284206 : permission denied
+[eBPF] emisor=1130818 objetivo=1284206 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1284206
+[eBPF] emisor=1130818 objetivo=1284206 señal=9
+[loop] RAM total=6991340KB libre=1161628KB uso=5829712KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=904064KB uso=6087276KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=528772KB uso=6462568KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=501944KB uso=6489396KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789844642_2
+  error enviando SIGTERM a PID 1275183 : permission denied
+[eBPF] emisor=1130818 objetivo=1275183 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1275183
+[eBPF] emisor=1130818 objetivo=1275183 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845125_4
+  error enviando SIGTERM a PID 1284052 : permission denied
+[eBPF] emisor=1130818 objetivo=1284052 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1284052
+[eBPF] emisor=1130818 objetivo=1284052 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845241_1
+  error enviando SIGTERM a PID 1286217 : permission denied
+[eBPF] emisor=1130818 objetivo=1286217 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1286217
+[eBPF] emisor=1130818 objetivo=1286217 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845005_2
+  error enviando SIGTERM a PID 1281435 : permission denied
+[eBPF] emisor=1130818 objetivo=1281435 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1281435
+[eBPF] emisor=1130818 objetivo=1281435 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845242_5
+  error enviando SIGTERM a PID 1286491 : permission denied
+[eBPF] emisor=1130818 objetivo=1286491 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1286491
+[eBPF] emisor=1130818 objetivo=1286491 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845127_5
+  error enviando SIGTERM a PID 1284129 : permission denied
+[eBPF] emisor=1130818 objetivo=1284129 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1284129
+[eBPF] emisor=1130818 objetivo=1284129 señal=9
+[loop] RAM total=6991340KB libre=408624KB uso=6582716KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=552132KB uso=6439208KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=486020KB uso=6505320KB | procesos en contenedores=7
+[loop] RAM total=6991340KB libre=920472KB uso=6070868KB | procesos en contenedores=13
+[decision] Deteniendo contenedor excedente: carga_1789845362_4
+  error enviando SIGTERM a PID 1288500 : permission denied
+[eBPF] emisor=1130818 objetivo=1288500 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1288500
+[eBPF] emisor=1130818 objetivo=1288500 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845242_3
+  error enviando SIGTERM a PID 1286366 : permission denied
+[eBPF] emisor=1130818 objetivo=1286366 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1286366
+[eBPF] emisor=1130818 objetivo=1286366 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845242_4
+  error enviando SIGTERM a PID 1286428 : permission denied
+[eBPF] emisor=1130818 objetivo=1286428 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1286428
+[eBPF] emisor=1130818 objetivo=1286428 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845363_5
+  error enviando SIGTERM a PID 1288561 : permission denied
+[eBPF] emisor=1130818 objetivo=1288561 señal=15
+  no respondió a SIGTERM, forzando SIGKILL a PID 1288561
+[eBPF] emisor=1130818 objetivo=1288561 señal=9
+[decision] Deteniendo contenedor excedente: carga_1789845362_2
+  error enviando SIGTERM a PID 1288365 : permission denied
+[eBPF] emisor=1130818 objetivo=1288365 señal=15
