@@ -1,0 +1,6 @@
+apiVersion: v2
+name: valkeyinstance
+description: Valkey (StatefulSet + Service + PVC) gestionado por el Operator
+type: application
+version: 0.1.0
+appVersion: "8"

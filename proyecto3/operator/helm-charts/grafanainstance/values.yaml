@@ -1,0 +1,12 @@
+image: zot.local:5000/mumnk8s/grafana-valkey:11.3.0
+adminUser: admin
+adminPassword: admin123
+valkeyHost: valkey
+valkeyPort: 6379
+resources:
+  requests:
+    cpu: 100m
+    memory: 192Mi
+  limits:
+    cpu: "1"
+    memory: 512Mi

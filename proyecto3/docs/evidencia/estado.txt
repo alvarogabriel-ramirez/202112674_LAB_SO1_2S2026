@@ -1,0 +1,76 @@
+## NODOS
+NAME                    STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                         KERNEL-VERSION     CONTAINER-RUNTIME
+mumnk8s-control-plane   Ready    control-plane   3h27m   v1.31.0   172.18.0.3    <none>        Debian GNU/Linux 12 (bookworm)   7.0.0-38-generic   containerd://1.7.18
+mumnk8s-worker          Ready    <none>          3h27m   v1.31.0   172.18.0.2    <none>        Debian GNU/Linux 12 (bookworm)   7.0.0-38-generic   containerd://1.7.18
+## NAMESPACE mumnk8s
+NAME                             READY   UP-TO-DATE   AVAILABLE   AGE    CONTAINERS                  IMAGES                                                                                SELECTOR
+deployment.apps/api-rust         1/1     1            1           150m   api-rust                    zot.local:5000/mumnk8s/rust-api:v1                                                    app=api-rust
+deployment.apps/go-consumer      1/1     1            1           101m   consumer                    zot.local:5000/mumnk8s/go-consumer:v1                                                 app=go-consumer
+deployment.apps/go-grpc-server   1/1     1            1           150m   grpc-server,rabbit-writer   zot.local:5000/mumnk8s/go-grpc-server:v1,zot.local:5000/mumnk8s/go-rabbit-writer:v1   app=go-grpc-server
+deployment.apps/go-rest-api      1/1     1            1           150m   rest-api,grpc-client        zot.local:5000/mumnk8s/go-rest-api:v1,zot.local:5000/mumnk8s/go-grpc-client:v1        app=go-rest-api
+deployment.apps/grafana          1/1     1            1           79m    grafana                     zot.local:5000/mumnk8s/grafana-valkey:11.3.0                                          app.kubernetes.io/instance=grafana,app.kubernetes.io/name=grafana
+deployment.apps/rabbitmq         1/1     1            1           150m   rabbitmq                    zot.local:5000/mumnk8s/rabbitmq:3.13-management                                       app=rabbitmq
+
+NAME                      READY   AGE    CONTAINERS   IMAGES
+statefulset.apps/valkey   1/1     102m   valkey       zot.local:5000/mumnk8s/valkey:8
+
+NAME                     TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)              AGE    SELECTOR
+service/api-rust         ClusterIP   10.96.128.60   <none>        8000/TCP             150m   app=api-rust
+service/go-grpc-server   ClusterIP   None           <none>        50051/TCP            150m   app=go-grpc-server
+service/go-rest-api      ClusterIP   10.96.194.63   <none>        8080/TCP             150m   app=go-rest-api
+service/grafana          ClusterIP   10.96.58.243   <none>        3000/TCP             79m    app.kubernetes.io/instance=grafana,app.kubernetes.io/name=grafana
+service/rabbitmq         ClusterIP   10.96.139.28   <none>        5672/TCP,15672/TCP   150m   app=rabbitmq
+service/valkey           ClusterIP   10.96.144.96   <none>        6379/TCP             102m   app.kubernetes.io/instance=valkey,app.kubernetes.io/name=valkey
+
+NAME                                  STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE    VOLUMEMODE
+persistentvolumeclaim/data-valkey-0   Bound    pvc-8a8f1744-a884-4b49-81cd-3c0166eb608e   1Gi        RWO            standard       <unset>                 102m   Filesystem
+
+NAME                                               REFERENCE             TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/api-rust-hpa   Deployment/api-rust   cpu: 1%/30%   1         3         3          150m
+
+NAME                                  READY   STATUS        RESTARTS   AGE     IP            NODE             NOMINATED NODE   READINESS GATES
+pod/api-rust-7464bc6495-6bqtv         1/1     Terminating   0          15m     10.244.1.28   mumnk8s-worker   <none>           <none>
+pod/api-rust-7464bc6495-8mhwp         1/1     Running       0          150m    10.244.1.9    mumnk8s-worker   <none>           <none>
+pod/api-rust-7464bc6495-9vf2n         1/1     Terminating   0          15m     10.244.1.29   mumnk8s-worker   <none>           <none>
+pod/go-consumer-7b8d98cf78-r29jw      1/1     Running       0          5m27s   10.244.1.33   mumnk8s-worker   <none>           <none>
+pod/go-grpc-server-68769c9fcb-cx5h9   2/2     Running       0          150m    10.244.1.8    mumnk8s-worker   <none>           <none>
+pod/go-rest-api-5fdb7c6cc5-g8zwl      2/2     Running       0          5m5s    10.244.1.34   mumnk8s-worker   <none>           <none>
+pod/grafana-bbbcbf499-8wp8q           1/1     Running       0          79m     10.244.1.20   mumnk8s-worker   <none>           <none>
+pod/rabbitmq-5b58d679df-n85cb         1/1     Running       0          150m    10.244.1.7    mumnk8s-worker   <none>           <none>
+pod/valkey-0                          1/1     Running       0          97m     10.244.1.18   mumnk8s-worker   <none>           <none>
+## GATEWAY
+NAME                                             CONTROLLER                      ACCEPTED   AGE
+gatewayclass.gateway.networking.k8s.io/traefik   traefik.io/gateway-controller   True       3h24m
+
+NAMESPACE   NAME                                                CLASS     ADDRESS   PROGRAMMED   AGE
+traefik     gateway.gateway.networking.k8s.io/traefik-gateway   traefik             True         3h24m
+
+NAMESPACE   NAME                                             HOSTNAMES   AGE
+mumnk8s     httproute.gateway.networking.k8s.io/grpc-route               150m
+## CRDS Y CRs
+grafanainstances.operators.mumnk8s.io          2026-10-22T20:51:59Z
+valkeyinstances.operators.mumnk8s.io           2026-10-22T20:28:43Z
+NAME                                         AGE
+valkeyinstance.operators.mumnk8s.io/valkey   102m
+
+NAME                                           AGE
+grafanainstance.operators.mumnk8s.io/grafana   79m
+## OPERATOR
+NAME                                                READY   STATUS    RESTARTS   AGE
+mumn-operator-controller-manager-5b65986df5-dkrb7   1/1     Running   0          44m
+## FALCO
+NAME          READY   STATUS    RESTARTS   AGE
+falco-6j259   2/2     Running   0          29m
+falco-7d4cf   2/2     Running   0          29m
+## ZOT
+{"repositories":["mumnk8s/go-consumer","mumnk8s/go-grpc-client","mumnk8s/go-grpc-server","mumnk8s/go-rabbit-writer","mumnk8s/go-rest-api","mumnk8s/grafana-valkey","mumnk8s/mumn-operator","mumnk8s/rabbitmq","mumnk8s/rust-api","mumnk8s/valkey"]}## WATCHES
+# Use the 'create api' subcommand to add watches to this file.
+- group: operators.mumnk8s.io
+  version: v1alpha1
+  kind: ValkeyInstance
+  chart: helm-charts/valkeyinstance
+- group: operators.mumnk8s.io
+  version: v1alpha1
+  kind: GrafanaInstance
+  chart: helm-charts/grafanainstance
+# +kubebuilder:scaffold:watch

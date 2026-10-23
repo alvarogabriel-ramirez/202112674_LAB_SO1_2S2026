@@ -1,0 +1,14 @@
+# Valores por defecto. El Custom Resource (spec) los sobreescribe.
+image: zot.local:5000/mumnk8s/valkey:8
+persistence:
+  enabled: true
+  size: 1Gi
+maxmemory: 256mb
+maxmemoryPolicy: noeviction
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: "1"
+    memory: 512Mi

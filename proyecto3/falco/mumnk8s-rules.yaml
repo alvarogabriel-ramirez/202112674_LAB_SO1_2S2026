@@ -1,0 +1,17 @@
+- rule: Lectura de archivo sensible en pods M.U.M.N.K8s
+  desc: >
+    Detecta la apertura o lectura de /etc/shadow o del directorio confidencial
+    /app/secretos dentro de los pods de la API REST en Rust o de los servicios en Go.
+  condition: >
+    evt.type in (open, openat, openat2) and evt.dir = <
+    and evt.is_open_read = true
+    and container.id != host
+    and (fd.name = /etc/shadow or fd.name startswith /app/secretos)
+    and (container.image.repository contains "/rust-api" or container.image.repository contains "/go-")
+  output: >
+    ALERTA M.U.M.N.K8s: lectura de archivo sensible
+    (archivo=%fd.name comando=%proc.cmdline usuario=%user.name
+    contenedor=%container.name imagen=%container.image.repository
+    pod=%k8s.pod.name namespace=%k8s.ns.name)
+  priority: WARNING
+  tags: [mumnk8s, filesystem, proyecto3]

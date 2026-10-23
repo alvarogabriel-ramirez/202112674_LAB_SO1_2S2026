@@ -1,0 +1,12 @@
+apiVersion: operators.mumnk8s.io/v1alpha1
+kind: ValkeyInstance
+metadata:
+  name: valkey
+  namespace: mumnk8s
+spec:
+  image: zot.local:5000/mumnk8s/valkey:8
+  persistence:
+    enabled: true
+    size: 1Gi
+  maxmemory: 256mb
+  maxmemoryPolicy: noeviction

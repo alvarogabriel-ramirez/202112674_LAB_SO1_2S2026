@@ -1,0 +1,11 @@
+apiVersion: operators.mumnk8s.io/v1alpha1
+kind: GrafanaInstance
+metadata:
+  name: grafana
+  namespace: mumnk8s
+spec:
+  image: zot.local:5000/mumnk8s/grafana-valkey:11.3.0
+  adminUser: admin
+  adminPassword: admin123
+  valkeyHost: valkey
+  valkeyPort: 6379

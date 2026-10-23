@@ -1,0 +1,19 @@
+Mensajes en cola al inicio: 29575
+deployment.apps/go-consumer scaled
+3 s   mensajes=28002
+9 s   mensajes=21869
+14 s   mensajes=15440
+20 s   mensajes=8979
+25 s   mensajes=2422
+30 s   mensajes=0
+RESULTADO: 1 réplica(s) | inicio=29575 mensajes | tiempo=30 s
+
+
+
+
+Mensajes en cola al inicio: 33021
+deployment.apps/go-consumer scaled
+4 s   mensajes=27515
+10 s   mensajes=10629
+15 s   mensajes=0
+RESULTADO: 2 réplica(s) | inicio=33021 mensajes | tiempo=15 s

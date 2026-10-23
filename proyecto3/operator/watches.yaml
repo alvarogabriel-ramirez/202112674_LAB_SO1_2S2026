@@ -1,0 +1,10 @@
+# Use the 'create api' subcommand to add watches to this file.
+- group: operators.mumnk8s.io
+  version: v1alpha1
+  kind: ValkeyInstance
+  chart: helm-charts/valkeyinstance
+- group: operators.mumnk8s.io
+  version: v1alpha1
+  kind: GrafanaInstance
+  chart: helm-charts/grafanainstance
+# +kubebuilder:scaffold:watch

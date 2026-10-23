@@ -1,0 +1,25 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: manager-role
+rules:
+  # Recursos que crean los Helm charts (Valkey y Grafana) y los secrets donde Helm guarda sus releases
+  - apiGroups: [""]
+    resources: [secrets, configmaps, services, serviceaccounts, persistentvolumeclaims, pods, pods/log, pods/exec]
+    verbs: [create, delete, get, list, patch, update, watch]
+  - apiGroups: [""]
+    resources: [events]
+    verbs: [create]
+  - apiGroups: [apps]
+    resources: [deployments, statefulsets]
+    verbs: [create, delete, get, list, patch, update, watch]
+  # Nuestros Custom Resources
+  - apiGroups: [operators.mumnk8s.io]
+    resources:
+      - valkeyinstances
+      - valkeyinstances/status
+      - valkeyinstances/finalizers
+      - grafanainstances
+      - grafanainstances/status
+      - grafanainstances/finalizers
+    verbs: [create, delete, get, list, patch, update, watch]

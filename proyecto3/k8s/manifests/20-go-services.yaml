@@ -1,0 +1,90 @@
+# Go Deployment 1: rest-api + grpc-client (2 containers)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-rest-api
+  namespace: mumnk8s
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: go-rest-api}
+  template:
+    metadata:
+      labels: {app: go-rest-api}
+    spec:
+      containers:
+        - name: rest-api
+          image: zot.local:5000/mumnk8s/go-rest-api:v1
+          ports: [{containerPort: 8080}]
+          readinessProbe:
+            httpGet: {path: /health, port: 8080}
+            periodSeconds: 5
+          resources:
+            requests: {cpu: 50m, memory: 32Mi}
+            limits: {cpu: 500m, memory: 128Mi}
+        - name: grpc-client
+          image: zot.local:5000/mumnk8s/go-grpc-client:v1
+          env:
+            - {name: GRPC_SERVER_ADDR, value: "dns:///go-grpc-server:50051"}
+          resources:
+            requests: {cpu: 50m, memory: 32Mi}
+            limits: {cpu: 500m, memory: 128Mi}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-rest-api
+  namespace: mumnk8s
+spec:
+  selector: {app: go-rest-api}
+  ports:
+    - {port: 8080, targetPort: 8080}
+---
+# Go Deployment 2: grpc-server + rabbit-writer (2 containers)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-grpc-server
+  namespace: mumnk8s
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: go-grpc-server}
+  template:
+    metadata:
+      labels: {app: go-grpc-server}
+    spec:
+      containers:
+        - name: grpc-server
+          image: zot.local:5000/mumnk8s/go-grpc-server:v1
+          ports: [{containerPort: 50051}]
+          readinessProbe:
+            tcpSocket: {port: 50051}
+            periodSeconds: 5
+          resources:
+            requests: {cpu: 50m, memory: 32Mi}
+            limits: {cpu: 500m, memory: 128Mi}
+        - name: rabbit-writer
+          image: zot.local:5000/mumnk8s/go-rabbit-writer:v1
+          env:
+            - {name: RABBIT_HOST, value: "rabbitmq:5672"}
+            - {name: WORKERS, value: "8"}
+            - name: RABBIT_USER
+              valueFrom: {secretKeyRef: {name: rabbitmq-credentials, key: username}}
+            - name: RABBIT_PASS
+              valueFrom: {secretKeyRef: {name: rabbitmq-credentials, key: password}}
+          resources:
+            requests: {cpu: 50m, memory: 32Mi}
+            limits: {cpu: 500m, memory: 128Mi}
+---
+# Headless: permite que el cliente gRPC reparta entre todas las replicas (round_robin)
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-grpc-server
+  namespace: mumnk8s
+spec:
+  clusterIP: None
+  selector: {app: go-grpc-server}
+  ports:
+    - {name: grpc, port: 50051, targetPort: 50051}
